@@ -19,7 +19,7 @@ For general information about past, present and future releases, see link:../rel
 
 Most users of FreeBSD will have hardware for **amd64** or **aarch64**. These architectures are well-supported.
 
-Most modern PCs, including those with Intel(R) processors, use the **amd64** architecture.
+Most modern PCs, including those with Intel(R) processors, use **amd64**.
 
 Embedded devices and single-board computers (SBCs) such as the Raspberry Pi 3 and 4, ESPRESSObin, as well as many Allwinner and Rockchip boards, use **aarch64**.
 
@@ -169,7 +169,7 @@ VM images are available for link:{url-snapshot}/VM-IMAGES/{rel123-current}-STABL
 [[install]]
 === Install FreeBSD
 
-Options include CD-ROM, DVD, USB memory stick and direct download using anonymous FTP, HTTP, or NFS.
+Options include images (see above) and direct download (anonymous FTP, HTTP, and NFS).
 Before downloading an entire distribution, please read the link:{handbook}bsdinstall/[installation guide].
 
 If you plan to get FreeBSD via FTP or HTTPS, check the FreeBSD Handbook for link:{handbook}mirrors/#mirrors[suitable mirrors] for your region.
@@ -177,7 +177,7 @@ If you plan to get FreeBSD via FTP or HTTPS, check the FreeBSD Handbook for link
 [[distribution]]
 === Purchase FreeBSD Media
 
-FreeBSD can be acquired on CD-ROM or DVD from http://www.freebsdmall.com/[FreeBSD Mall], and other link:{handbook}mirrors/#mirrors-cdrom[CD-ROM and DVD publishers].
+FreeBSD can be acquired on CD-ROM or DVD from https://www.freebsdmall.com/[FreeBSD Mall], and other link:{handbook}mirrors/#mirrors-cdrom[CD-ROM and DVD publishers].
 
 [[past]]
 === Past Releases
@@ -192,9 +192,9 @@ The projects below are of particular interest.
 
 * https://www.truenas.com/[TrueNAS] is network attached storage (NAS) software that shares and protects data from modern-day threats like ransomware and malware. TrueNAS makes it easy for users and client devices to access shared data through virtually any sharing protocol.
 * https://ghostbsd.org[GhostBSD] is derived from FreeBSD, and uses the GTK environment to provide a beautiful look and a comfortable experience on a modern BSD platform offering a natural and native UNIX(R)-like work environment.
-* https://www.midnightbsd.org[MidnightBSD] is a BSD-derived operating system developed with desktop users in mind. It includes all the software you would expect for your daily tasks: mail, web browsing, word processing, gaming, and much more.
+* https://www.midnightbsd.org[MidnightBSD] was forked from FreeBSD 6.1 beta, and continues to use parts of more recent FreeBSD code bases. Developed with desktop users in mind, MidnightBSD includes everything that you would expect for your daily tasks: mail, web browsing, word processing, gaming, and much more.
 * https://www.nomadbsd.org[NomadBSD] is a persistent live system for USB flash drives, based on FreeBSD. Together with automatic hardware detection and setup, it is configured to be used as a desktop system that works out of the box, but can also be used for data recovery, for educational purposes, or to test FreeBSD hardware compatibility.
-* http://www.pfsense.org[pfSense] is a FreeBSD-based customized distribution tailored for use as a firewall and router.
+* https://www.pfsense.org/[pfSense] is a FreeBSD-based customized distribution tailored for use as a firewall and router.
 
 [[apps]]
 === Applications and Utility Software
@@ -204,8 +204,8 @@ The projects below are of particular interest.
 A diverse collection of utility and application software that has been _ported_ to FreeBSD.
 
 * link:../ports/[About FreeBSD Ports]
-* http://www.freshports.org/[FreshPorts - a more advanced web interface to the Collection]
+* https://www.freshports.org/[FreshPorts - a more advanced web interface to the Collection]
 * link:{handbook}#ports[Installing Applications: Packages and Ports] in the FreeBSD Handbook
 * ftp://ftp.FreeBSD.org/pub/FreeBSD/ports/[Download the FreeBSD Ports Collection].
 
-For information about how _you_ can contribute _your_ favorite piece of software to the Ports Collection, have a look at _link:{porters-handbook}[The Porter's Handbook]_ and _link:{contributing}[Contributing to FreeBSD]_.
+For information about how _you_ can contribute _your_ favorite piece of software to the Collection, have a look at _link:{porters-handbook}[The Porter's Handbook]_ and _link:{contributing}[Contributing to FreeBSD]_.
