@@ -487,14 +487,20 @@ The `zpool` utility controls the operation of the pool and allows adding, removi
 The <<zfs-zfs,`zfs`>> utility allows creating, destroying, and managing datasets, both <<zfs-term-filesystem,file systems>> and <<zfs-term-volume,volumes>>.
 
 [[zfs-zpool-create]]
-=== Creating and Destroying Storage Pools
+=== Creating and Destroying Pools
 
-Creating a ZFS storage pool requires permanent decisions, as the pool structure cannot change after creation.
+Creating a pool requires forethought.
+
 The most important decision is which types of vdevs to group the physical disks into. 
-See the list of <<zfs-term-vdev,vdev types>> for details about the possible options.
-After creating the pool, most vdev types do not allow adding disks to the vdev.
-The exceptions are mirrors, which allow adding new disks to the vdev, and stripes, which upgrade to mirrors by attaching a new disk to the vdev.
-Although adding new vdevs expands a pool, the pool layout cannot change after pool creation.
+See the list of <<zfs-term-vdev,vdev types>> for details.
+
+After creating a pool, most types of vdev do not allow addition of a disk.
+Exceptions are: 
+
+* mirrors, which do allow addition of a disk to the vdev
+* stripes, which upgrade to mirrors by attaching a new disk to the vdev.
+
+Although adding a new vdev expands a pool, the pool layout cannot change.
 Instead, back up the data, destroy the pool, and recreate it.
 
 Create a simple mirror pool:
