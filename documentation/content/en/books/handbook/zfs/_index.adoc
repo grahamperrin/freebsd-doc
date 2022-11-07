@@ -4,7 +4,7 @@ part: Part III. System Administration
 prev: books/handbook/geom
 next: books/handbook/filesystems
 description: ZFS is an advanced file system designed to solve major problems found in previous storage subsystem software
-tags: ["ZFS", "filesystem", "administration", "zpool", "features", "terminology", "RAID-Z"]
+tags: ["ZFS", "filesystem", "administration", "pool", "zpool", "features", "terminology", "RAID-Z"]
 showBookMenu: true
 weight: 25
 path: "/books/handbook/"
@@ -253,7 +253,7 @@ If two disks are available, ZFS mirroring provides redundancy if required.
 Refer to man:zpool[8] for more details.
 ====
 
-The previous example created the `storage` zpool.
+The previous example created the `storage` pool.
 This example makes a new file system called `home` in that pool:
 
 [source,shell]
@@ -480,7 +480,7 @@ Routine scrubs help protect data from silent corruption and ensure the integrity
 Refer to man:zfs[8] and man:zpool[8] for other ZFS options.
 
 [[zfs-zpool]]
-== `zpool` Administration
+== Pool Administration
 
 ZFS administration uses two main utilities.
 The `zpool` utility controls the operation of the pool and allows adding, removing, replacing, and managing disks.
@@ -787,7 +787,7 @@ When replacing a working disk, the process keeps the old disk online during the 
 The pool never enters a <<zfs-term-degraded,degraded>> state, reducing the risk of data loss.
 Running `zpool replace` copies the data from the old disk to the new one.
 After the operation completes, ZFS disconnects the old disk from the vdev.
-If the new disk is larger than the old disk, it may be possible to grow the zpool, using the new space.
+If the new disk is larger than the old disk, it may be possible to grow the pool, using the new space.
 See <<zfs-zpool-online,Growing a Pool>>.
 
 Replace a functioning device in the pool:
@@ -1211,7 +1211,7 @@ mypool               110K  47.0G    31K  /mnt/mypool
 ....
 
 [[zfs-zpool-upgrade]]
-=== Upgrading a Storage Pool
+=== Upgrading a Pool
 
 After upgrading FreeBSD, or if importing a pool from a system using an older version, manually upgrade the pool to the latest ZFS version to support newer features.
 Consider whether the pool may ever need importing on an older system before upgrading.
