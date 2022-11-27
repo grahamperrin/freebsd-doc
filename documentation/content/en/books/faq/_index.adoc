@@ -1595,7 +1595,7 @@ On systems with additional ZFS dataset tuning, such as deduplication, the space 
 [[zfs-ssd-trim]]
 === Is there TRIM support for ZFS on solid state drives?
 
-FreeBSD 11.0-RELEASE incuded link:https://www.freebsd.org/releases/11.0R/relnotes/#storage-general[TRIM/UNMAP support on GELI-backed SSD storage providers]. 
+FreeBSD 11.0-RELEASE included link:https://www.freebsd.org/releases/11.0R/relnotes/#storage-general[TRIM/UNMAP support on GELI-backed SSD storage providers]. 
 See man:geli[8] option `-T`.
 
 ZFS in FreeBSD stable/12: TRIM is enabled by default.
