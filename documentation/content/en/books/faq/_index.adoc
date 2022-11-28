@@ -813,7 +813,8 @@ Common causes of this include:
 In either case, ensure that the hardware is running at what it is specified to run at, at least while trying to solve this problem.
 If it is not, clock it back to the default settings.)
 +
-Regarding overclocking, it is far cheaper to have a slow system than a fried system that needs replacing! Also the community is not sympathetic to problems on overclocked systems.
+Regarding overclocking, it is far cheaper to have a slow system than a fried system that needs replacing!
+Also the community is not sympathetic to problems on overclocked systems.
 . Dodgy memory: if multiple memory SIMMS/DIMMS are installed, pull them all out and try running the machine with each SIMM or DIMM individually to narrow the problem down to either the problematic DIMM/SIMM or perhaps even a combination.
 . Over-optimistic motherboard settings: the BIOS settings, and some motherboard jumpers, provide options to set various timings.
 The defaults are often sufficient, but sometimes setting the wait states on RAM too low, or setting the "RAM Speed: Turbo" option will cause strange behavior.
@@ -1056,7 +1057,8 @@ Additional tools are available to simplify port handling and are described the e
 [[ports-major-upgrade]]
 === Do I need to recompile every port each time I perform a major version update?
 
-Yes! While a recent system will run with software compiled under an older release,
+Yes!
+While a recent system will run with software compiled under an older release,
 things will randomly crash and fail to work once other ports are installed or updated.
 
 When the system is upgraded, various shared libraries, loadable modules, and other parts of the system will be replaced with newer versions.
@@ -1090,7 +1092,8 @@ Compare the memory utilization of these shells by looking at the "VSZ" and "RSS"
 [[make-kernel]]
 === I would like to customize my kernel. Is it difficult?
 
-Not at all! Check out the extref:{handbook}kernelconfig/[kernel config section of the Handbook].
+Not at all!
+Check out the extref:{handbook}kernelconfig/[kernel config section of the Handbook].
 
 [NOTE]
 ====
@@ -1781,7 +1784,8 @@ Search the mailing lists for discussions regarding the advantages and disadvanta
 [[forgot-root-pw]]
 === I have forgotten the root password! What do I do?
 
-Do not panic! Restart the system, type `boot -s` at the `Boot:` prompt to enter single-user mode.
+Do not panic!
+Restart the system, type `boot -s` at the `Boot:` prompt to enter single-user mode.
 At the question about the shell to use, hit kbd:[Enter] which will display a # prompt.
 Enter `mount -urw /` to remount the root file system read/write, then run `mount -a` to remount all the file systems.
 Run `passwd root` to change the `root` password then run man:exit[1] to continue booting.
@@ -2901,7 +2905,7 @@ So no matter how well prepared, no matter how reasonable you are with your propo
 somebody will seize the chance to show that he is doing his job, that he is paying attention, that he is here.
 
 In Denmark we call it “setting your fingerprint”.
-It is about personal pride and prestige, it is about being able to point somewhere and say “There! I did that.”
+It is about personal pride and prestige, it is about being able to point somewhere and say “There! I did that.”.
 It is a strong trait in politicians, but present in most people given the chance.
 Just think about footsteps in wet cement.
 
@@ -2932,11 +2936,13 @@ Also if you have ACPI (Advanced Configuration and Power Interface) configured, t
 
 _Q._ Is there anything "odd" that FreeBSD does when compiling the kernel which would cause the memory to make a scratchy sound? When compiling (and for a brief moment after recognizing the floppy drive upon startup, as well), a strange scratchy sound emanates from what appears to be the memory banks.
 
-_A._ Yes! You will see frequent references to "daemons" in the BSD documentation, and what most people do not know is that this refers to genuine, non-corporeal entities that now possess your computer.
+_A._ Yes!
+You will see frequent references to "daemons" in the BSD documentation, and what most people do not know is that this refers to genuine, non-corporeal entities that now possess your computer.
 The scratchy sound coming from your memory is actually high-pitched whispering exchanged among the daemons as they best decide how to deal with various system administration tasks.
 
 If the noise gets to you, a good `fdisk /mbr` from DOS will get rid of them, but do not be surprised if they react adversely and try to stop you.
-In fact, if at any point during the exercise you hear the satanic voice of Bill Gates coming from the built-in speaker, take off running and do not ever look back! Freed from the counterbalancing influence of the BSD daemons, the twin demons of DOS and Windows(R) are often able to re-assert total control over your machine to the eternal damnation of your soul.
+In fact, if at any point during the exercise you hear the satanic voice of Bill Gates coming from the built-in speaker, take off running and do not ever look back!
+Freed from the counterbalancing influence of the BSD daemons, the twin demons of DOS and Windows(R) are often able to re-assert total control over your machine to the eternal damnation of your soul.
 Now that you know, given a choice you would probably prefer to get used to the scratchy noises, no?
 
 [[changing-lightbulbs]]
