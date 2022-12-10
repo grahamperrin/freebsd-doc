@@ -52,6 +52,12 @@ Source-based upgrades (those based on recompiling the FreeBSD base system from s
 Upgrading FreeBSD should only be attempted after backing up _all_ data and configuration files.
 ====
 
+[IMPORTANT]
+====
+After upgrading, sshd will not accept new connections until it is restarted.
+After installing the new userland, either reboot (as specified in the source update procedure), or execute `service sshd restart`.
+====
+
 [[security-errata]]
 == Security and Errata
 
@@ -440,7 +446,7 @@ gitref:22d6238a047311edf01df8b1b04bb2af3c99ae15[repository=src]
 
 The NFS client code had a race condition fixed.
 gitref:ca826694e3b08133b9e16744e1178863cfc4c16b[repository=src]
-
+////
 
 [[boot]]
 == Boot Loader Changes
@@ -449,7 +455,7 @@ This section covers the boot loader, boot menu, and other boot-related changes.
 
 [[boot-loader]]
 === Boot Loader Changes
-
+////
 
 [[network]]
 == Networking
