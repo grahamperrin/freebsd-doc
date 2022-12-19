@@ -102,12 +102,6 @@ This section lists the various Security Advisories and Errata Notices since {rel
 
 This section covers changes and additions to userland applications, contributed software, and system utilities.
 
-[[userland-config]]
-=== Userland Configuration Changes
-
-// SAMPLE ENTRY:
-// A new man:rc.conf[5] variable has been added, `linux_mounts_enable`, which controls if Linux(R)-specific filesystems are mounted in [.filename]#/compat/linux# if `linux_enable` is set to `YES`. {{< revision "364883" >}} (Sponsored by The FreeBSD Foundation)
-
 [[userland-programs]]
 === Userland Application Changes
 
@@ -120,7 +114,7 @@ gitref:b57954717ddfe52be9e18591d302c61e50db0aa6[repository=src]
 gitref:a605ca25ef681452e25622a44917cbb5033eaae4[repository=src]
 {{< sponsored "Klara, Inc." >}}
 
-The man:cp[1] utility will honor properly `-H`, `-L` and `-P` flags. Notably, it will not resolve symlinks encountedered during traversal when either `-H` or `-P` are specified.
+The man:cp[1] utility will honor properly `-H`, `-L` and `-P` flags. Notably, it will not resolve symlinks encountered during traversal when either `-H` or `-P` are specified.
 gitref:1d9f60b0512802806d3dea3c5fcc6a0d8780259f[repository=src]
 {{< sponsored "Klara, Inc." >}}
 
@@ -256,14 +250,10 @@ The tzdata 2022f was imported into the tree.
 gitref:df5c24d590895801e3d62494e1a350f4fed6a4f6[repository=src]
 
 The man:unbound[8] utility has been updated to version 1.16.3.
-gitreg:51206a8d11ae17ee3a64c51a1afc7e5bf7881da4[repository=src]
+gitref:51206a8d11ae17ee3a64c51a1afc7e5bf7881da4[repository=src]
 
 wpa has been updated to version 2.10. This includes hostapd 2.10.
 gitref:ea5113953168dcc26fce5f602c563fc0eebd2fe7[repository=src]
-
-[[userland-libraries]]
-=== Runtime Libraries and API
-
 
 [[kernel]]
 == Kernel
