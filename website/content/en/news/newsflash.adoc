@@ -9,13 +9,10 @@ loadNews: true
 [.right]
 image:../../gifs/news.jpg[FreeBSD News]
 
-FreeBSD is a rapidly developing operating system. Keeping up on the latest developments can be a chore! To keep on top of things, check this page periodically. News is also announced on the https://lists.freebsd.org/subscription/freebsd-announce[freebsd-announce mailing] list and the link:../feed.xml[RSS feed].
+**Essential announcements** are made to the _freebsd-announce_ https://lists.freebsd.org/subscription/freebsd-announce[mailing list] and link:../feed.xml[RSS feed]. These include link:../../security/advisories/[FreeBSD Security Advisories] and link:../../security/notices/[FreeBSD Errata Notices].
 
-The following projects have their own news pages, which should be checked for project specific updates.
+**Release notes and related pages** are at link:../../releases[Release Information]. 
 
-* https://freebsd.kde.org/[KDE on FreeBSD]
-* link:../../gnome[GNOME on FreeBSD]
+**KDE on FreeBSD** news appears most often in FreeBSD Project status reports (below), less often at https://freebsd.kde.org/[KDE on FreeBSD].
 
-For a detailed description of past, present, and future releases, see the link:../../releases[Release Information page].
-
-FreeBSD security information and a list of available Security Advisories are available on the link:../../security[Security Information page].
+Occasional news about **Cinnamon, GNOME and MATE on FreeBSD** may be found via link:../../gnome[The FreeBSD GNOME Project].
