@@ -22,9 +22,9 @@ link:../press/[FreeBSD in the Press]
 
 == Other sites
 
-**KDE on FreeBSD** news appears most often in FreeBSD Project status reports (below), less often at https://freebsd.kde.org/[KDE on FreeBSD].
+KDE on FreeBSD news appears most often in FreeBSD Project status reports (below), less often at https://freebsd.kde.org/[KDE on FreeBSD].
 
-Occasional news about **Cinnamon, GNOME and MATE on FreeBSD** may be found via link:../../gnome[The FreeBSD GNOME Project].
+Occasional news about Cinnamon, GNOME and MATE on FreeBSD may be found via link:../../gnome[The FreeBSD GNOME Project].
 
 https://www.bsdnow.tv/[BSD Now]
 
