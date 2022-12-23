@@ -12,7 +12,3 @@ image:../../gifs/news.jpg[FreeBSD News]
 **Essential announcements** are made to the _freebsd-announce_ https://lists.freebsd.org/subscription/freebsd-announce[mailing list] and link:../feed.xml[RSS feed]. These include link:../../security/advisories/[FreeBSD Security Advisories] and link:../../security/notices/[FreeBSD Errata Notices].
 
 **Release notes and related pages** are at link:../../releases[Release Information]. 
-
-**KDE on FreeBSD** news appears most often in FreeBSD Project status reports (below), less often at https://freebsd.kde.org/[KDE on FreeBSD].
-
-Occasional news about **Cinnamon, GNOME and MATE on FreeBSD** may be found via link:../../gnome[The FreeBSD GNOME Project].
