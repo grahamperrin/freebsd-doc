@@ -6,23 +6,8 @@ title = "FreeBSD 12.4-RELEASE Available"
 description = "<a href=\"https://www.FreeBSD.org/releases/12.4R/announce/\">FreeBSD 12.4-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.FreeBSD.org/releases/12.4R/relnotes/\">Release Notes</a> and <a href=\"https://www.FreeBSD.org/releases/12.4R/errata/\">Release Errata</a> before installation for any late-breaking news and/or issues with 12.4. More information about FreeBSD releases can be found on the <a href=\"https://www.FreeBSD.org/releases/\">Release Information</a> page."
 
 [[news]]
-date = "2022-11-11"
-title = "FreeBSD 12.4-RC2 Available"
-description = "The second RC build for the FreeBSD 12.4 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-November/000943.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-11-04"
-title = "FreeBSD 12.4-RC1 Available"
-description = "The first RC build for the FreeBSD 12.4 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-November/000937.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2022-10-26"
 description = "New committer: <a href=\"mailto:corvink@FreeBSD.org\">Corvin Köhne</a> (src)"
-
-[[news]]
-date = "2022-10-21"
-title = "FreeBSD 12.4-BETA1 Available"
-description = "The first BETA build for the FreeBSD 12.4 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-October/000920.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
 
 [[news]]
 date= "2022-10-21"
@@ -82,54 +67,9 @@ title = "FreeBSD 13.1-RELEASE Available"
 description = "<a href=\"https://www.FreeBSD.org/releases/13.1R/announce/\">FreeBSD 13.1-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.FreeBSD.org/releases/13.1R/relnotes/\">Release Notes</a> and <a href=\"https://www.FreeBSD.org/releases/13.1R/errata/\">Release Errata</a> before installation for any late-breaking news and/or issues with 13.1. More information about FreeBSD releases can be found on the <a href=\"https://www.FreeBSD.org/releases/\">Release Information</a> page."
 
 [[news]]
-date = "2022-05-05"
-title = "FreeBSD 13.1-RC6 Available"
-description = "The sixth RC build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, powerpc64le, powerpcspe, and riscv architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-May/000762.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-04-28"
-title = "FreeBSD 13.1-RC5 Available"
-description = "The fifth RC build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, powerpc64le, powerpcspe, and riscv architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-April/000735.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-04-21"
-title = "FreeBSD 13.1-RC4 Available"
-description = "The fourth RC build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, powerpc64le, powerpcspe, and riscv architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-April/000720.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-04-14"
-title = "FreeBSD 13.1-RC3 Available"
-description = "The third RC build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, powerpc64le, powerpcspe, and riscv architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-April/000718.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-04-07"
-title = "FreeBSD 13.1-RC2 Available"
-description = "The second RC build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, and powerpcspe architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-April/000700.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-04-01"
-title = "FreeBSD 13.1-RC1 Available"
-description = "The first RC build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, powerpcspe, and riscv architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-April/000651.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-03-24"
-title = "FreeBSD 13.1-BETA3 Available"
-description = "The third BETA build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, powerpcspe, and riscv architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-March/000629.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2022-03-23"
 title = "New portmgr lurkers"
 description = "Portmgr has restarted the portmgr-lurker program and has selected the first two lurkers: <a href=\"mailto:pizzamig@FreeBSD.org\">Luca Pizzamiglio</a> and <a href=\"mailto:se@FreeBSD.org\">Stefan Eßer</a>. They will join portmgr for the coming months and learn all about its inner workings."
-
-[[news]]
-date = "2022-03-17"
-title = "FreeBSD 13.1-BETA2 Available"
-description = "The second BETA build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, i386, arm64, powerpc64, and powerpcspe architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-March/000581.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2022-03-10"
-title = "FreeBSD 13.1-BETA1 Available"
-description = "The first BETA build for the FreeBSD 13.1 release cycle is now available. ISO images for the amd64, arm64, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2022-March/000571.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date= "2022-03-10"
@@ -146,38 +86,13 @@ title = "FreeBSD 12.3-RELEASE Available"
 description = "<a href=\"https://www.FreeBSD.org/releases/12.3R/announce/\">FreeBSD 12.3-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.FreeBSD.org/releases/12.3R/relnotes/\">Release Notes</a> and <a href=\"https://www.FreeBSD.org/releases/12.3R/errata/\">Release Errata</a> before installation for any late-breaking news and/or issues with 12.3. More information about FreeBSD releases can be found on the <a href=\"https://www.FreeBSD.org/releases/\">Release Information</a> page."
 
 [[news]]
-date = "2021-11-18"
-title = "FreeBSD 12.3-RC2 Available"
-description = "The second RC build for the FreeBSD 12.3 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2021-November/000330.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2021-11-15"
 title = "July-September 2021 Status Report"
 description = "The <a href=\"https://www.freebsd.org/status/report-2021-07-2021-09/\">July to September 2021 Status Report</a> is now available with 42 entries."
 
 [[news]]
-date = "2021-11-11"
-title = "FreeBSD 12.3-RC1 Available"
-description = "The first RC build for the FreeBSD 12.3 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2021-November/000321.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
-
-[[news]]
 date= "2021-11-06"
 description = "New committer: <a href=\"mailto:driesm@FreeBSD.org\">Dries Michiels</a> (ports)"
-
-[[news]]
-date = "2021-11-04"
-title = "FreeBSD 12.3-BETA3 Available"
-description = "The third BETA build for the FreeBSD 12.3 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2021-November/000309.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-10-29"
-title = "FreeBSD 12.3-BETA2 Available"
-description = "The second BETA build for the FreeBSD 12.3 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2021-October/000289.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-10-22"
-title = "FreeBSD 12.3-BETA1 Available"
-description = "The first BETA build for the FreeBSD 12.3 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/archives/freebsd-stable/2021-October/000269.html\">available</a> on most of our <a href=\"https://docs.freebsd.org/en/books/handbook/mirrors/#mirrors-ftp\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2021-08-27"
@@ -227,58 +142,13 @@ title = "FreeBSD 13.0-RELEASE Available"
 description = "<a href=\"https://www.FreeBSD.org/releases/13.0R/announce/\">FreeBSD 13.0-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.FreeBSD.org/releases/13.0R/relnotes/\">Release Notes</a> and <a href=\"https://www.FreeBSD.org/releases/13.0R/errata/\">Release Errata</a> before installation for any late-breaking news and/or issues with 13.0. More information about FreeBSD releases can be found on the <a href=\"https://www.FreeBSD.org/releases/\">Release Information</a> page."
 
 [[news]]
-date = "2021-04-03"
-title = "FreeBSD 13.0-RC5 Available"
-description = "The fifth RC build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-April/093429.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-03-29"
-title = "FreeBSD 13.0-RC4 Available"
-description = "The fourth RC build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-March/093374.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2021-03-21"
 title = "Reopening Weblate for translations"
 description = "After the migration to Hugo/AsciiDoctor the weblate tool it's opened again. To get more information <a href=\"https://lists.freebsd.org/pipermail/freebsd-translators/2021-March/000364.html\">check the announcement</a>."
 
 [[news]]
-date = "2021-03-20"
-title = "FreeBSD 13.0-RC3 Available"
-description = "The third RC build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-March/093340.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2021-03-15"
 description = "New committer: <a href=\"mailto:khng@FreeBSD.org\">Ka Ho Ng</a> (src)"
-
-[[news]]
-date = "2021-03-12"
-title = "FreeBSD 13.0-RC2 Available"
-description = "The second RC build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-March/093294.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-03-06"
-title = "FreeBSD 13.0-RC1 Available"
-description = "The first RC build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-March/093272.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-02-27"
-title = "FreeBSD 13.0-BETA4 Available"
-description = "The fourth BETA build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-February/093233.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-02-20"
-title = "FreeBSD 13.0-BETA3 Available"
-description = "The third BETA build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-February/093151.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-02-12"
-title = "FreeBSD 13.0-BETA2 Available"
-description = "The second BETA build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, armv6, armv7, i386, powerpc, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-February/093081.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2021-02-06"
-title = "FreeBSD 13.0-BETA1 Available"
-description = "The first BETA build for the FreeBSD 13.0 release cycle is now available. ISO images for the amd64, arm64, powerpc64, powerpcspe, powerpc64le, and riscv64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2021-February/093047.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2021-02-07"
@@ -336,36 +206,6 @@ title = "July-September 2020 Status Report"
 description = "The <a href=\"https://www.FreeBSD.org/status/report-2020-07-2020-09.html\">July to September 2020 Status Report</a> is now available with 35 entries."
 
 [[news]]
-date = "2020-10-17"
-title = "FreeBSD 12.2-RC3 Available"
-description = "The third RC build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-October/092786.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-10-10"
-title = "FreeBSD 12.2-RC2 Available"
-description = "The second RC build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-October/092761.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-10-03"
-title = "FreeBSD 12.2-RC1 Available"
-description = "The first RC build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-October/092740.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-09-26"
-title = "FreeBSD 12.2-BETA3 Available"
-description = "The third BETA build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, and powerpcspe architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-September/092727.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-09-18"
-title = "FreeBSD 12.2-BETA2 Available"
-description = "The second BETA build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-September/092702.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-09-12"
-title = "FreeBSD 12.2-BETA1 Available"
-description = "The first BETA build for the FreeBSD 12.2 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-September/092680.html\">available</a> on most of our <a href=\"https://www.FreeBSD.org/doc/en/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2020-08-31"
 description = "New committer: <a href=\"mailto:rhurlin@FreeBSD.org\">Rainer Hurling</a> (ports)"
 
@@ -407,29 +247,9 @@ title = "FreeBSD 2020 Community Survey"
 description = "The <a href=\"https://www.research.net/r/freebsd-2020-community-survey\">FreeBSD 2020 Community Survey</a> is now available. Please feel free to share the survey URL with your employer, co-workers, friends, or any other community members interested in FreeBSD. Survey closes 17:00 UTC on June 16th (Tuesday 10am PDT)."
 
 [[news]]
-date = "2020-05-29"
-title = "FreeBSD 11.4-RC2 Available"
-description = "The second RC build for the FreeBSD 11.4 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-May/092320.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-05-22"
-title = "FreeBSD 11.4-RC1 Available"
-description = "The first RC build for the FreeBSD 11.4 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-May/092304.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2020-05-16"
-title = "FreeBSD 11.4-BETA2 Available"
-description = "The second BETA build for the FreeBSD 11.4 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-May/092285.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2020-05-16"
 title = "FreeBSD participates in Google Season of Docs"
 description = "The FreeBSD Project is once again <a href=\"https://developers.google.com/season-of-docs/docs/participants/\">participating as a mentoring organization</a> in the <a href=\"https://developers.google.com/season-of-docs\">Google Season of Docs</a> program. The goal of the program is to bring open source and technical writers together. Technical writers spend three months working closely with open source communities to bring their expertise to the project's documentation. The list of available tasks and contact information is available on the <a href=\"https://wiki.freebsd.org/GoogleSeasonOfDocs\">FreeBSD wiki</a>."
-
-[[news]]
-date = "2020-05-09"
-title = "FreeBSD 11.4-BETA1 Available"
-description = "The first BETA build for the FreeBSD 11.4 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2020-May/092284.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2020-04-12"
@@ -493,41 +313,16 @@ title = "FreeBSD 12.1-RELEASE Available"
 description = "<a href=\"https://www.freebsd.org/releases/12.1R/announce.html\">FreeBSD 12.1-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.freebsd.org/releases/12.1R/relnotes.html\">Release Notes</a> and <a href=\"https://www.freebsd.org/releases/12.1R/errata.html\">Release Errata</a> before installation for any late-breaking news and/or issues with 12.1. More information about FreeBSD releases can be found on the <a href=\"https://www.freebsd.org/releases/index.html\">Release Information</a> page."
 
 [[news]]
-date = "2019-10-18"
-title = "FreeBSD 12.1-RC2 Available"
-description = "The second RC build for the FreeBSD 12.1 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-October/091616.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2019-10-11"
-title = "FreeBSD 12.1-RC1 Available"
-description = "The first RC build for the FreeBSD 12.1 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-October/091599.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2019-10-11"
 description = "New committer: <a href=\"mailto:samm@FreeBSD.org\">Alex Samorukov</a> (ports)"
-
-[[news]]
-date = "2019-10-04"
-title = "FreeBSD 12.1-BETA3 Available"
-description = "The third BETA build for the FreeBSD 12.1 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-October/091567.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2019-09-29"
 description = "New committer: <a href=\"mailto:0mp@FreeBSD.org\">Mateusz Piotrowski</a> (doc)"
 
 [[news]]
-date = "2019-09-28"
-title = "FreeBSD 12.1-BETA2 Available"
-description = "The second BETA build for the FreeBSD 12.1 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-September/091555.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2019-09-26"
 description = "New committer: <a href=\"mailto:kaktus@FreeBSD.org\">Pawel Biernacki</a> (src)"
-
-[[news]]
-date = "2019-09-20"
-title = "FreeBSD 12.1-BETA1 Available"
-description = "The first BETA build for the FreeBSD 12.1 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-September/091533.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2019-09-15"
@@ -557,34 +352,9 @@ title = "FreeBSD 11.3-RELEASE Available"
 description = "<a href=\"https://www.freebsd.org/releases/11.3R/announce.html\">FreeBSD 11.3-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.freebsd.org/releases/11.3R/relnotes.html\">Release Notes</a> and <a href=\"https://www.freebsd.org/releases/11.3R/errata.html\">Release Errata</a> before installation for any late-breaking news and/or issues with 11.3. More information about FreeBSD releases can be found on the <a href=\"https://www.freebsd.org/releases/index.html\">Release Information</a> page."
 
 [[news]]
-date = "2019-06-28"
-title = "FreeBSD 11.3-RC3 Available"
-description = "The third RC build for the FreeBSD 11.3 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-June/091312.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2019-06-21"
-title = "FreeBSD 11.3-RC2 Available"
-description = "The second RC build for the FreeBSD 11.3 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-June/091293.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2019-06-14"
-title = "FreeBSD 11.3-RC1 Available"
-description = "The first RC build for the FreeBSD 11.3 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-June/091281.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2019-06-07"
-title = "FreeBSD 11.3-BETA3 Available"
-description = "The third BETA build for the FreeBSD 11.3 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-June/091257.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2019-06-04"
 title = "January-March 2019 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2019-01-2019-03.html\">January to March 2019 Status Report</a> is now available."
-
-[[news]]
-date = "2019-05-31"
-title = "FreeBSD 11.3-BETA2 Available"
-description = "The second BETA build for the FreeBSD 11.3 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-May/091227.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2019-05-31"
@@ -597,11 +367,6 @@ description = "New committer: <a href=\"mailto:chs@FreeBSD.org\">Chuck Silvers</
 [[news]]
 date = "2019-05-28"
 description = "New committer: <a href=\"mailto:scottph@FreeBSD.org\">D Scott Phillips</a> (src)"
-
-[[news]]
-date = "2019-05-24"
-title = "FreeBSD 11.3-BETA1 Available"
-description = "The first BETA build for the FreeBSD 11.3 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2019-May/091210.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2019-05-16"
@@ -660,41 +425,6 @@ description = "<a href=\"https://www.freebsd.org/releases/12.0R/announce.html\">
 date = "2018-12-11"
 title = "Cirrus CI Support for FreeBSD"
 description = "FreeBSD support was recently added to the <a href=\"https://cirrus-ci.org/\">Cirrus CI</a> system. Cirrus CI makes your development cycle fast, efficient, and secure by leveraging modern cloud technologies. Cirrus CI scales with your team and makes shipping software faster and cheaper. Follow the <a href=\"https://cirrus-ci.org/guide/FreeBSD/\">FreeBSD Virtual Machines</a> guide to find out more."
-
-[[news]]
-date = "2018-12-01"
-title = "FreeBSD 12.0-RC3 Available"
-description = "The third RC build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-December/090138.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-11-25"
-title = "FreeBSD 12.0-RC2 Available"
-description = "The second RC build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-November/090068.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-11-17"
-title = "FreeBSD 12.0-RC1 Available"
-description = "The first RC build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-November/090020.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-11-10"
-title = "FreeBSD 12.0-BETA4 Available"
-description = "The fourth BETA build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-November/089982.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-11-03"
-title = "FreeBSD 12.0-BETA3 Available"
-description = "The third BETA build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-November/089945.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-10-27"
-title = "FreeBSD 12.0-BETA2 Available"
-description = "The second BETA build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-October/089897.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-10-20"
-title = "FreeBSD 12.0-BETA1 Available"
-description = "The first BETA build for the FreeBSD 12.0 release cycle is now available. ISO images for the amd64, armv6, armv7, arm64, i386, powerpc, powerpc64, powerpcspe and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-October/089821.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2018-10-16"
@@ -757,32 +487,12 @@ description = "On June 19, 1993 the name FreeBSD was officially agreed on and ha
 
 [[news]]
 date = "2018-06-16"
-title = "FreeBSD 11.2-RC3 Available"
-description = "The third RC build for the FreeBSD 11.2 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-June/089116.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-06-16"
 description = "New committer: <a href=\"mailto:0mp@FreeBSD.org\">Mateusz Piotrowski</a> (ports)"
-
-[[news]]
-date = "2018-06-09"
-title = "FreeBSD 11.2-RC2 Available"
-description = "The second RC build for the FreeBSD 11.2 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-June/089099.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2018-06-08"
 title = "Service outage"
 description = "Portions of the FreeBSD cluster will be offline Saturday, June 9th for an extended maintenance window for electrical work. Services will be affected, most notably mailing list traffic and a portion of our web services. The maintenance window begins June 9th at 11:00 UTC (04:00 US-Pacific) and extends though 20:00 UTC (13:00 US-Pacific)"
-
-[[news]]
-date = "2018-06-02"
-title = "FreeBSD 11.2-RC1 Available"
-description = "The first RC build for the FreeBSD 11.2 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-June/089053.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2018-05-26"
-title = "FreeBSD 11.2-BETA3 Available"
-description = "The third BETA build for the FreeBSD 11.2 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-May/089001.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2018-05-22"
@@ -793,18 +503,8 @@ date = "2018-05-21"
 description = "New committer: <a href=\"mailto:luporl@FreeBSD.org\">Leandro Lupori</a> (src)"
 
 [[news]]
-date = "2018-05-19"
-title = "FreeBSD 11.2-BETA2 Available"
-description = "The second BETA build for the FreeBSD 11.2 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-May/088958.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2018-05-15"
 description = "New committer: <a href=\"mailto:arrowd@FreeBSD.org\">Gleb Popov</a> (ports)"
-
-[[news]]
-date = "2018-05-12"
-title = "FreeBSD 11.2-BETA1 Available"
-description = "The first BETA build for the FreeBSD 11.2 release cycle is now available. ISO images for the amd64, armv6, arm64, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2018-May/088899.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2018-04-17"
@@ -888,11 +588,6 @@ title = "April-June 2017 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2017-04-2017-06.html\">April to June 2017 Status Report</a> is now available."
 
 [[news]]
-date = "2017-09-23"
-title = "FreeBSD 10.4-RC2 Available"
-description = "The second RC build for the FreeBSD 10.4 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-September/087848.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2017-09-19"
 description = "New committer: <a href=\"mailto:eugen@FreeBSD.org\">Eugene Grosbein</a> (src)"
 
@@ -901,22 +596,12 @@ date = "2017-09-18"
 description = "New committer: <a href=\"mailto:ygy@FreeBSD.org\">Guangyuan Yang</a> (doc)"
 
 [[news]]
-date = "2017-09-17"
-title = "FreeBSD 10.4-RC1 Available"
-description = "The first RC build for the FreeBSD 10.4 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-September/087817.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2017-09-11"
 description = "New committer: <a href=\"mailto:leres@FreeBSD.org\">Craig Leres</a> (ports)"
 
 [[news]]
 date = "2017-09-09"
 description = "New committer: <a href=\"mailto:dch@FreeBSD.org\">Dave Cottlehuber</a> (ports)"
-
-[[news]]
-date = "2017-09-09"
-title = "FreeBSD 10.4-BETA4 Available"
-description = "The fourth BETA build for the FreeBSD 10.4 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-September/087791.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2017-09-08"
@@ -932,11 +617,6 @@ description = "New committer: <a href=\"mailto:shurd@FreeBSD.org\">Stephen Hurd<
 
 [[news]]
 date = "2017-09-02"
-title = "FreeBSD 10.4-BETA3 Available"
-description = "The third BETA build for the FreeBSD 10.4 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-September/087748.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2017-09-02"
 description = "New committer: <a href=\"mailto:kibab@FreeBSD.org\">Ilya Bakulin</a> (src)"
 
 [[news]]
@@ -944,18 +624,8 @@ date = "2017-08-28"
 description = "New committer: <a href=\"mailto:fsu@FreeBSD.org\">Fedor Uporov</a> (src)"
 
 [[news]]
-date = "2017-08-26"
-title = "FreeBSD 10.4-BETA2 Available"
-description = "The second BETA build for the FreeBSD 10.4 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-August/087708.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2017-08-25"
 description = "New committer: <a href=\"mailto:pizzamig@FreeBSD.org\">Luca Pizzamiglio</a> (ports)"
-
-[[news]]
-date = "2017-08-19"
-title = "FreeBSD 10.4-BETA1 Available"
-description = "The first BETA build for the FreeBSD 10.4 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-August/087682.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2017-07-26"
@@ -967,42 +637,12 @@ date = "2017-07-18"
 description = "New committer: <a href=\"mailto:mw@FreeBSD.org\">Marcin Wojtas</a> (src)"
 
 [[news]]
-date = "2017-07-15"
-title = "FreeBSD 11.1-RC3 Available"
-description = "The third RC build for the FreeBSD 11.1 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-July/087407.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2017-07-12"
 description = "New committer: <a href=\"mailto:mjoras@FreeBSD.org\">Matt Joras</a> (src)"
 
 [[news]]
-date = "2017-07-08"
-title = "FreeBSD 11.1-RC2 Available"
-description = "The second RC build for the FreeBSD 11.1 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-July/087368.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2017-07-01"
-title = "FreeBSD 11.1-RC1 Available"
-description = "The first RC build for the FreeBSD 11.1 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-July/087340.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2017-06-24"
-title = "FreeBSD 11.1-BETA3 Available"
-description = "The third BETA build for the FreeBSD 11.1 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-June/087303.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2017-06-20"
 description = "New committer: <a href=\"mailto:kevans@FreeBSD.org\">Kyle Evans</a> (src)"
-
-[[news]]
-date = "2017-06-17"
-title = "FreeBSD 11.1-BETA2 Available"
-description = "The second BETA build for the FreeBSD 11.1 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-June/087277.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2017-06-10"
-title = "FreeBSD 11.1-BETA1 Available"
-description = "The first BETA build for the FreeBSD 11.1 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2017-June/087242.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2017-06-07"
@@ -1127,21 +767,6 @@ date = "2016-09-17"
 description = "New committer: <a href=\"mailto:jrm@FreeBSD.org\">Joseph Mingrone</a> (ports)"
 
 [[news]]
-date = "2016-09-17"
-title = "FreeBSD 11.0-RC3 Available"
-description = "The third RC build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-September/085645.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2016-08-25"
-title = "FreeBSD 11.0-RC2 Available"
-description = "The second RC build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-August/085365.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2016-08-13"
-title = "FreeBSD 11.0-RC1 Available"
-description = "The first RC build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-August/085277.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2016-08-10"
 description = "New committer: <a href=\"mailto:tsoome@FreeBSD.org\">Toomas Soome</a> (src)"
 
@@ -1150,24 +775,9 @@ date = "2016-08-10"
 description = "The FreeBSD Core Team has released a <a href=\"https://lists.freebsd.org/pipermail/freebsd-announce/2016-August/001739.html\">statement</a> about the recent freebsd-update and related vulnerabilities."
 
 [[news]]
-date = "2016-08-06"
-title = "FreeBSD 11.0-BETA4 Available"
-description = "The fourth BETA build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-August/085186.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2016-07-30"
-title = "FreeBSD 11.0-BETA3 Available"
-description = "The third BETA build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-July/085114.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2016-07-27"
 title = "April-June 2016 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2016-04-2016-06.html\">April to June 2016 Status Report</a> is now available."
-
-[[news]]
-date = "2016-07-24"
-title = "FreeBSD 11.0-BETA2 Available"
-description = "The second BETA build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-July/085059.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2016-07-19"
@@ -1184,11 +794,6 @@ description = "New committer: <a href=\"mailto:stevek@FreeBSD.org\">Stephen J. K
 [[news]]
 date = "2016-07-11"
 description = "New committer: <a href=\"mailto:cpm@FreeBSD.org\">Carlos J. Puga Medina</a> (ports)"
-
-[[news]]
-date = "2016-07-10"
-title = "FreeBSD 11.0-BETA1 Available"
-description = "The first BETA build for the FreeBSD 11.0 release cycle is now available. ISO images for the amd64, armv6, i386, aarch64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-July/084918.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2016-07-06"
@@ -1234,21 +839,6 @@ title = "FreeBSD 10.3-RELEASE Available"
 description = "<a href=\"https://www.freebsd.org/releases/10.3R/announce.html\">FreeBSD 10.3-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.freebsd.org/releases/10.3R/relnotes.html\">Release Notes</a> and <a href=\"https://www.freebsd.org/releases/10.3R/errata.html\">Release Errata</a> before installation for any late-breaking news and/or issues with 10.3. More information about FreeBSD releases can be found on the <a href=\"https://www.freebsd.org/releases/index.html\">Release Information</a> page."
 
 [[news]]
-date = "2016-03-20"
-title = "FreeBSD 10.3-RC3 Available"
-description = "The third Release Candidate build for the FreeBSD 10.3 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-March/084424.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2016-03-13"
-title = "FreeBSD 10.3-RC2 Available"
-description = "The second Release Candidate build for the FreeBSD 10.3 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-March/084384.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2016-03-05"
-title = "FreeBSD 10.3-RC1 Available"
-description = "The first Release Candidate build for the FreeBSD 10.3 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-March/084296.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2016-03-01"
 description = "New committer: <a href=\"mailto:cmt@FreeBSD.org\">Christoph Moench-Tegeder</a> (ports)"
 
@@ -1260,11 +850,6 @@ description = "The FreeBSD Project is pleased to announce its participation in G
 [[news]]
 date = "2016-02-28"
 description = "New committer: <a href=\"mailto:phil@FreeBSD.org\">Phil Shafer</a> (src)"
-
-[[news]]
-date = "2016-02-28"
-title = "FreeBSD 10.3-BETA3 Available"
-description = "The third BETA build for the FreeBSD 10.3 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-February/084238.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2016-02-24"
@@ -1283,16 +868,6 @@ description = "Dag-Erling Smørgrav posts some information about <a href=\"https
 date = "2016-02-17"
 title = "Analysis of FreeBSD Kernel by PVS-Studio"
 description = "The development team of the PVS-Studio static code analyzer checked the FreeBSD kernel and <a href=\"http://www.viva64.com/en/b/0377/\">published an article</a> describing the most suspicious fragments."
-
-[[news]]
-date = "2016-02-14"
-title = "FreeBSD 10.3-BETA2 Available"
-description = "The second BETA build for the FreeBSD 10.3 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-February/084145.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2016-02-06"
-title = "FreeBSD 10.3-BETA1 Available"
-description = "The first BETA build for the FreeBSD 10.3 release cycle is now available. ISO images for the amd64, armv6, i386, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2016-February/084088.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2016-02-02"
@@ -1359,16 +934,6 @@ date = "2015-08-08"
 description = "Enhanced commit privileges: <a href=\"mailto:araujo@FreeBSD.org\">Marcelo Araujo</a> (ports, src)"
 
 [[news]]
-date = "2015-08-07"
-title = "FreeBSD 10.2-RC3 Available"
-description = "The third RC build for the FreeBSD 10.2 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2015-August/083031.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2015-08-01"
-title = "FreeBSD 10.2-RC2 Available"
-description = "The second RC build for the FreeBSD 10.2 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2015-August/082966.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2015-07-30"
 description = "Enhanced commit privileges: <a href=\"mailto:allanjude@FreeBSD.org\">Allan Jude</a> (src)"
 
@@ -1380,21 +945,6 @@ description = "New committer: <a href=\"mailto:junovitch@FreeBSD.org\">Jason Uno
 date = "2015-07-26"
 title = "April–June, 2015 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2015-04-2015-06.html\">April–June, 2015 Status Report</a> is now available."
-
-[[news]]
-date = "2015-07-24"
-title = "FreeBSD 10.2-RC1 Available"
-description = "The first RC build for the FreeBSD 10.2 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2015-July/082903.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2015-07-17"
-title = "FreeBSD 10.2-BETA2 Available"
-description = "The second BETA build for the FreeBSD 10.2 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2015-July/082771.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2015-07-11"
-title = "FreeBSD 10.2-BETA1 Available"
-description = "The first BETA build for the FreeBSD 10.2 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2015-July/082704.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2015-07-05"
@@ -1470,18 +1020,8 @@ description = "<a href=\"https://www.freebsd.org/releases/10.1R/announce.html\">
 
 [[news]]
 date = "2014-11-02"
-title = "FreeBSD 10.1-RC4 Available"
-description = "The fourth RC build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-November/080872.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2014-11-02"
 title = "FreeBSD turns 21 today!"
 description = "FreeBSD 1.0, the first official release of FreeBSD was announced 21 years ago today, on November 2nd, 1993. See the original announcement <a href=\"https://www.freebsd.org/releases/1.0/announce.html\">here</a>."
-
-[[news]]
-date = "2014-10-23"
-title = "FreeBSD 10.1-RC3 Available"
-description = "The third RC build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-October/080701.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2014-10-23"
@@ -1493,37 +1033,12 @@ title = "July–September, 2014 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2014-07-2014-09.html\">July–September, 2014 Status Report</a> is now available."
 
 [[news]]
-date = "2014-10-13"
-title = "FreeBSD 10.1-RC2 Available"
-description = "The second RC build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-October/080555.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2014-10-12"
 description = "New committer: <a href=\"mailto:arybchik@FreeBSD.org\">Andrew Rybchenko</a> (src)"
 
 [[news]]
-date = "2014-10-04"
-title = "FreeBSD 10.1-RC1 Available"
-description = "The first RC build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-October/080453.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2014-09-28"
-title = "FreeBSD 10.1-BETA3 Available"
-description = "The third BETA build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-September/080264.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2014-09-24"
 description = "New committer: <a href=\"mailto:jch@FreeBSD.org\">Julien Charbon</a> (src)"
-
-[[news]]
-date = "2014-09-21"
-title = "FreeBSD 10.1-BETA2 Available"
-description = "The second BETA build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-September/080177.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2014-09-14"
-title = "FreeBSD 10.1-BETA1 Available"
-description = "The first BETA build for the FreeBSD 10.1 release cycle is now available. ISO images for the amd64, armv6, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-September/080106.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2014-09-09"
@@ -1577,47 +1092,17 @@ title = "New FreeBSD Core Team elected"
 description = "The FreeBSD Project is pleased to announce the completion of the 2014 Core Team election. The FreeBSD Core Team acts as the project's \"board of directors\" and is responsible for approving new src committers, resolving disputes between developers, appointing sub-committees for specific purposes (security officer, release engineering, port managers, webmaster, etc...), and making any other administrative or policy decisions as needed. The Core Team has been elected by FreeBSD developers every two years since 2000. More information about the election (together with a list of the new members of the Core Team) can be found in the official <a href=\"https://docs.FreeBSD.org/cgi/mid.cgi?20140709125554.7abb9ee4\">announcement</a>."
 
 [[news]]
-date = "2014-07-06"
-title = "FreeBSD 9.3-RC3 Available"
-description = "The third RC build for the FreeBSD -9.3 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-July/079239.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2014-07-04"
 title = "Temporary WITH_NEW_XORG repositories available for FreeBSD 9 and 10"
 description = "For people needing WITH_NEW_XORG, an alternate pkg(8) repository is now online. It contains a subset of packages affected by this knob. Please see the <a href=\"https://lists.freebsd.org/pipermail/freebsd-announce/2014-July/001570.html\">announce mail</a> for more details."
-
-[[news]]
-date = "2014-06-28"
-title = "FreeBSD 9.3-RC2 Available"
-description = "The second RC build for the FreeBSD -9.3 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-June/079092.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2014-06-21"
-title = "FreeBSD 9.3-RC1 Available"
-description = "The first RC build for the FreeBSD -9.3 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-June/079024.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2014-06-17"
 description = "New committer: <a href=\"mailto:robak@FreeBSD.org\">Bartek Rutkowski</a> (ports)"
 
 [[news]]
-date = "2014-06-14"
-title = "FreeBSD 9.3-BETA3 Available"
-description = "The third BETA build for the FreeBSD -9.3 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-June/078959.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2014-06-11"
 description = "New committer: <a href=\"mailto:shurd@FreeBSD.org\">Stephen Hurd</a> (ports)"
-
-[[news]]
-date = "2014-06-07"
-title = "FreeBSD 9.3-BETA2 Available"
-description = "The second BETA build for the FreeBSD -9.3 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-June/078864.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2014-06-01"
-title = "FreeBSD 9.3-BETA1 Available"
-description = "The first BETA build for the FreeBSD -9.3 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-June/078827.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2014-05-29"
@@ -1697,21 +1182,6 @@ date = "2014-01-10"
 description = "New committer: <a href=\"mailto:riggs@FreeBSD.org\">Thomas Zander</a> (ports)"
 
 [[news]]
-date = "2014-01-09"
-title = "FreeBSD 10.0-RC5 Available"
-description = "The fifth RC build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-January/076800.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2014-01-02"
-title = "FreeBSD 10.0-RC4 Available"
-description = "The fourth RC build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2014-January/076681.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2013-12-26"
-title = "FreeBSD 10.0-RC3 Available"
-description = "The third RC build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-December/076590.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-12-18"
 description = "Enhanced commit privileges: <a href=\"mailto:ganbold@FreeBSD.org\">Ganbold Tsagaankhuu</a> (doc, src)"
 
@@ -1724,24 +1194,9 @@ date = "2013-12-16"
 description = "Enhanced commit privileges: <a href=\"mailto:bdrewery@FreeBSD.org\">Bryan Drewery</a> (ports, src)"
 
 [[news]]
-date = "2013-12-16"
-title = "FreeBSD 10.0-RC2 Available"
-description = "The second RC build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-December/076480.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2013-12-09"
-title = "FreeBSD 10.0-RC1 Available"
-description = "The first RC build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-December/076231.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-12-09"
 title = "EuroBSDcon 2013 Developer Summit Report"
 description = "A <a href=\"https://www.freebsd.org/news/status/report-2013-09-devsummit.html\">special status report on the EuroBSDcon 2013 FreeBSD Developer Summit</a> is now available with 13 entries."
-
-[[news]]
-date = "2013-12-03"
-title = "FreeBSD 10.0-BETA4 Available"
-description = "The fourth BETA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-December/076040.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2013-11-27"
@@ -1750,11 +1205,6 @@ description = "New committer: <a href=\"mailto:royger@FreeBSD.org\">Roger Pau Mo
 [[news]]
 date = "2013-11-08"
 description = "New committer: <a href=\"mailto:alexey@FreeBSD.org\">Alexey Degtyarev</a> (ports)"
-
-[[news]]
-date = "2013-11-05"
-title = "FreeBSD 10.0-BETA3 Available"
-description = "The third BETA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-November/075704.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2013-11-02"
@@ -1766,28 +1216,13 @@ title = "Official Binary Packages for Pkg Available"
 description = "Official binary packages are now available for Pkg for FreeBSD 8.3, 8.4, 9.1, 9.2, 10.0 and head. See the <a href=\"https://lists.freebsd.org/pipermail/freebsd-pkg/2013-October/000107.html\">announcement</a> for more information."
 
 [[news]]
-date = "2013-10-28"
-title = "FreeBSD 10.0-BETA2 Available"
-description = "The second BETA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-October/075591.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-10-20"
 title = "July-September, 2013 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2013-07-2013-09.html\">July-September, 2013 Status Report</a> is now available with 30 entries."
 
 [[news]]
-date = "2013-10-14"
-title = "FreeBSD 10.0-BETA1 Available"
-description = "The first BETA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-October/075504.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-10-09"
 description = "New committer: <a href=\"mailto:edavis@FreeBSD.org\">Eric Davis</a> (src)"
-
-[[news]]
-date = "2013-10-07"
-title = "FreeBSD 10.0-ALPHA5 Available"
-description = "The fifth ALPHA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-current/2013-October/045097.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2013-09-30"
@@ -1795,28 +1230,8 @@ title = "FreeBSD 9.2-RELEASE Available"
 description = "<a href=\"https://www.freebsd.org/releases/9.2R/announce.html\">FreeBSD 9.2-RELEASE</a> is now available. Please be sure to check the <a href=\"https://www.freebsd.org/releases/9.2R/relnotes.html\">Release Notes</a> <a href=\"https://www.freebsd.org/releases/9.2R/errata.html\">Release Errata</a> before installation for any late-breaking news and/or issues with 9.2. More information about FreeBSD releases can be found on the <a href=\"https://www.freebsd.org/releases/index.html\">Release Information</a> page."
 
 [[news]]
-date = "2013-09-29"
-title = "FreeBSD 10.0-ALPHA4 Available"
-description = "The fourth ALPHA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-current/2013-September/044951.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-09-23"
 description = "New committer: <a href=\"mailto:danilo@FreeBSD.org\">Danilo Egêa Gondolfo</a> (ports)"
-
-[[news]]
-date = "2013-09-18"
-title = "FreeBSD 10.0-ALPHA2 Available"
-description = "The second ALPHA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-current/2013-September/044676.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2013-09-13"
-title = "FreeBSD 10.0-ALPHA1 Available"
-description = "The first ALPHA build for the FreeBSD -10.0 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-current/2013-September/044522.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2013-09-12"
-title = "FreeBSD 9.2-RC4 Available"
-description = "The fourth RC build for the FreeBSD -9.2 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-September/075163.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2013-09-02"
@@ -1827,40 +1242,15 @@ date = "2013-09-02"
 description = "New committer: <a href=\"mailto:zbb@FreeBSD.org\">Zbigniew Bodek</a> (src)"
 
 [[news]]
-date = "2013-08-26"
-title = "FreeBSD 9.2-RC3 Available"
-description = "The third RC build for the FreeBSD -9.2 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-August/074920.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2013-08-16"
-title = "FreeBSD 9.2-RC2 Available"
-description = "The second RC build for the FreeBSD -9.2 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-August/074756.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-08-06"
 title = "The FreeBSD Foundation Semi-Annual Newsletter is Now Available"
 description = "We are pleased to announce the publication of our 2013 Semi-Annual Newsletter! This is a chance for you to read about what we are doing to help make FreeBSD the best operating system available. Read about funded development projects to improve FreeBSD , sponsored conferences, developer and vendor summits to create face-to-face opportunities, research, how we are doing on our fundraising efforts, and so much more! The 2013 semi-annual newsletter is available online <a href=\"https://www.freebsdfoundation.org/press/2013Jul-newsletter\">here</a>."
 
 [[news]]
-date = "2013-08-05"
-title = "FreeBSD 9.2-RC1 Available"
-description = "The first RC build for the FreeBSD -9.2 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-August/074589.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-07-31"
 description = "New committer: <a href=\"mailto:nemysis@FreeBSD.org\">Rusmir Dusko</a> (ports)"
 
-[[news]]
-date = "2013-07-29"
-title = "FreeBSD 9.2-BETA2 Available"
-description = "The second BETA build for the FreeBSD -9.2 release cycle is now available. ISO images for the amd64, i386, powerpc64 and sparc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-July/074440.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
-date = "2013-07-22"
-title = "FreeBSD 9.2-BETA1 Available"
-description = "The first BETA build for the FreeBSD -9.2 release cycle is now available. ISO images for the amd64, i386 and ia64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-July/074377.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
+[news]]
 date = "2013-07-16"
 title = "April-June, 2013 Status Report"
 description = "The <a href=\"https://www.freebsd.org/news/status/report-2013-04-2013-06.html\">April-June, 2013 Status Report</a> is now available with 33 entries."
@@ -1920,11 +1310,6 @@ title = "FreeBSD Foundation Announces Ed Maste as New Director of Project Develo
 description = "The FreeBSD Foundation is pleased to announce Ed Maste's new role as the Foundation's part-time Director of Project Development. Ed has served on the Foundation's board for two years, and has stepped down in order to accept this new position. <a href=\"http://freebsdfoundation.blogspot.com/2013/05/freebsd-foundation-announces-ed-maste.html\">Read more...</a>"
 
 [[news]]
-date = "2013-05-08"
-title = "FreeBSD 8.4-RC3 Available"
-description = "The third RC build for the FreeBSD -8.4 release cycle is now available. ISO images for the amd64, i386 and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-May/073389.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-04-29"
 title = "New FreeBSD Foundation Technical Staff Member: Edward Tomasz Napierała"
 description = "The FreeBSD Foundation is pleased to announce that Edward Tomasz Napierała has joined as its second member of technical staff. This is a continuation of the Foundation's plan to invest in staff in 2013. <a href=\"http://freebsdfoundation.blogspot.com/2013/04/freebsd-foundation-announces-second.html\">Read more...</a>"
@@ -1939,22 +1324,12 @@ title = "FreeBSD Project to participate in Google Summer of Code 2013"
 description = "The FreeBSD Project is pleased to announce its participation in Google's 2013 Summer of Code program, which funds summer students to participate in open source projects. This will be the FreeBSD Project's ninth year in the program, having mentored over 150 successful students through summer-long coding projects between 2005 and 2012. Past successful projects have included improvements to Linux ABI emulation, NFSv4 ACLs, TCP regression testing, FUSE file system support, and countless other projects. Many students go on to become FreeBSD developers, as well as participating in FreeBSD developer events around the world through continuing support from the FreeBSD Foundation. Prospective participants are invited to apply; more information is available, including proposal and deadline information, on the <a href=\"https://www.freebsd.org/projects/summerofcode.html\">FreeBSD Summer Projects page</a>."
 
 [[news]]
-date = "2013-04-22"
-title = "FreeBSD 8.4-RC2 Available"
-description = "The second RC build for the FreeBSD -8.4 release cycle is now available. ISO images for the amd64, i386 and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-April/073198.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2013-04-18"
 description = "Enhanced commit privileges: <a href=\"mailto:cy@FreeBSD.org\">Cy Schubert</a> (src, ports)"
 
 [[news]]
 date = "2013-04-12"
 description = "New committer: <a href=\"mailto:hiren@FreeBSD.org\">Hiren Panchasara</a> (src)"
-
-[[news]]
-date = "2013-04-10"
-title = "FreeBSD 8.4-RC1 Available"
-description = "The first RC build for the FreeBSD -8.4 release cycle is now available. ISO images for the amd64, i386 and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-April/073070.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2013-04-03"
@@ -1967,11 +1342,6 @@ description = "New committer: <a href=\"mailto:wg@FreeBSD.org\">William Grzybows
 [[news]]
 date = "2013-03-27"
 description = "Enhanced commit privileges: <a href=\"mailto:tijl@FreeBSD.org\">Tijl Coosemans</a> (src, ports)"
-
-[[news]]
-date = "2013-03-22"
-title = "FreeBSD 8.4-BETA1 Available"
-description = "The first BETA build for the FreeBSD -8.4 release cycle is now available. ISO images for the amd64, i386 and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2013-March/072913.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2013-03-14"
@@ -2113,11 +1483,6 @@ date = "2012-11-04"
 description = "New committer: <a href=\"mailto:gblach@FreeBSD.org\">Grzegorz Blach</a> (ports)"
 
 [[news]]
-date = "2012-11-03"
-title = "FreeBSD 9.1-RC3 Available"
-description = "The third RC build for the FreeBSD -9.1 release cycle is now available. ISO images for the amd64, i386, sparc64, and powerpc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-November/070401.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2012-10-24"
 description = "Enhanced commit privileges: <a href=\"mailto:erwin@FreeBSD.org\">Erwin Lansing</a> (src, ports)"
 
@@ -2134,11 +1499,6 @@ date = "2012-10-19"
 description = "New member for the Ports Management team: <a href=\"mailto:decke@FreeBSD.org\">Bernhard Fröhlich</a>."
 
 [[news]]
-date = "2012-10-10"
-title = "FreeBSD 9.1-RC2 Available"
-description = "The second RC build for the FreeBSD -9.1 release cycle is now available. ISO images for the amd64, i386, ia64, powerpc, and powerpc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-October/069998.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2012-09-15"
 description = "New committer: <a href=\"mailto:peterj@FreeBSD.org\">Peter Jeremy</a> (src)"
 
@@ -2149,11 +1509,6 @@ description = "New committer: <a href=\"mailto:ebrandi@FreeBSD.org\">Edson Brand
 [[news]]
 date = "2012-09-10"
 description = "New committer: <a href=\"mailto:jhale@FreeBSD.org\">Jason E. Hale</a> (ports)"
-
-[[news]]
-date = "2012-08-23"
-title = "FreeBSD 9.1-RC1 Available"
-description = "The first RC build for the FreeBSD -9.1 release cycle is now available. ISO images for the amd64, i386 and powerpc64 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-August/069233.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2012-08-21"
@@ -2167,11 +1522,6 @@ description = "New committer: <a href=\"mailto:bdrewery@FreeBSD.org\">Bryan Drew
 date = "2012-07-24"
 title = "New Core Team Secretary: <a href=\"mailto:pgj@FreeBSD.org\">Gábor     Páli</a>"
 description = "The FreeBSD Core Team is glad to announce that <a href=\"mailto:pgj@FreeBSD.org\">Gábor Páli</a> has assumed the role of <a href=\"mailto:core-secretary@FreeBSD.org\">Core Team Secretary</a>."
-
-[[news]]
-date = "2012-07-16"
-title = "FreeBSD 9.1-BETA1 Available"
-description = "The first BETA build for the FreeBSD -9.1 release cycle is now available. ISO images for the architectures amd64, i386, powerpc64, and sparc64 are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-July/068830.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2012-07-11"
@@ -2237,11 +1587,6 @@ date = "2012-04-12"
 description = "New committer: <a href=\"mailto:madpilot@FreeBSD.org\">Guido Falsi</a> (ports)"
 
 [[news]]
-date = "2012-04-02"
-title = "FreeBSD 8.3-RC2 Available"
-description = "The second release candidate build for the FreeBSD -8.3 release cycle is now available. ISO images for the amd64, i386, and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-April/067067.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2012-03-23"
 description = "New committer: <a href=\"mailto:cherry@FreeBSD.org\">Cherry G. Mathew</a> (src)"
 
@@ -2250,18 +1595,8 @@ date = "2012-03-12"
 description = "New committer: <a href=\"mailto:bjk@FreeBSD.org\">Benjamin Kaduk</a> (doc/www)"
 
 [[news]]
-date = "2012-03-06"
-title = "FreeBSD 8.3-RC1 Available"
-description = "The first RC build for the FreeBSD -8.3 release cycle is now available. ISO images for the amd64, i386, and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-March/066722.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2012-03-01"
 description = "New committer: <a href=\"mailto:ak@FreeBSD.org\">Alex Kozlov</a> (ports)"
-
-[[news]]
-date = "2012-02-20"
-title = "FreeBSD 8.3-BETA1 Available"
-description = "The first test build for the FreeBSD -8.3 release cycle is now available. ISO images for the amd64, i386, and pc98 architectures are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2012-February/066340.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2012-02-16"
@@ -2298,11 +1633,6 @@ date = "2011-12-16"
 description = "New committer: <a href=\"mailto:jgh@FreeBSD.org\">Jason Helfman</a> (ports)"
 
 [[news]]
-date = "2011-12-09"
-title = "FreeBSD 9.0-RC3 Available"
-description = "The third (and probably last) RC build for the FreeBSD -9.0 release cycle is now available. ISO images for the architectures amd64, i386, ia64, powerpc, powerpc64, and sparc64 are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-December/064770.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. One of the many new features in 9.0 we would like to be tested is the new installer, so we encourage our users to do fresh installation on test systems. Alternatively, users upgrading existing systems may now do so using the freebsd-update(8) utility."
-
-[[news]]
 date = "2011-12-08"
 description = "New committer: <a href=\"mailto:pfg@FreeBSD.org\">Pedro Giffuni</a> (src)"
 
@@ -2313,11 +1643,6 @@ description = "New member for the Ports Management team: <a href=\"mailto:beat@F
 [[news]]
 date = "2011-11-30"
 description = "New committer: <a href=\"mailto:jhibbits@FreeBSD.org\">Justin Hibbits</a> (src)"
-
-[[news]]
-date = "2011-11-17"
-title = "FreeBSD 9.0-RC2 Available"
-description = "The second RC build for the FreeBSD -9.0 release cycle is now available. ISO images for the architectures amd64, i386, ia64, powerpc, powerpc64, and sparc64 are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-November/064609.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. One of the many new features in 9.0 we would like to be tested is the new installer, so we encourage our users to do fresh installation on test systems. Alternatively, users upgrading existing systems may now do so using the freebsd-update(8) utility."
 
 [[news]]
 date = "2011-11-12"
@@ -2337,18 +1662,8 @@ title = "July-September, 2011 Status Report"
 description = "The July-September, 2011 Status Report is <a href=\"https://www.freebsd.org/news/status/report-2011-07-2011-09.html\">now available</a> with 28 entries."
 
 [[news]]
-date = "2011-10-23"
-title = "FreeBSD 9.0-RC1 Available"
-description = "The first RC build for the FreeBSD -9.0 release cycle is now available. ISO images for the architectures amd64, i386, ia64, powerpc, powerpc64, and sparc64 are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-October/064321.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. One of the many new features in 9.0 we would like to be tested is the new installer, so we encourage our users to do fresh installation on test systems. Alternatively, users upgrading existing systems may now do so using the freebsd-update(8) utility."
-
-[[news]]
 date = "2011-10-06"
 description = "New committer: <a href=\"mailto:melifaro@FreeBSD.org\">Alexander V. Chernikov</a> (src)"
-
-[[news]]
-date = "2011-09-28"
-title = "FreeBSD 9.0-BETA3 Available"
-description = "The third BETA build for the FreeBSD -9.0 release cycle is now available. ISO images for the architectures amd64, i386, ia64, powerpc, powerpc64, and sparc64 are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-September/064030.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. One of the many new features in 9.0 we would like to be tested is the new installer, so we encourage our users to do fresh installation on test systems."
 
 [[news]]
 date = "2011-09-27"
@@ -2392,11 +1707,6 @@ description = "New committer: <a href=\"mailto:eadler@FreeBSD.org\">Eitan Adler<
 date = "2011-08-09"
 title = "FreeBSD Foundation August 2011 Newsletter"
 description = "The FreeBSD Foundation has published their first <a href=\"https://www.freebsdfoundation.org/press/2011Aug-newsletter.shtml\">Semi-Annual 2011 newsletter</a> which summarizes what they have done to help the FreeBSD Project and community."
-
-[[news]]
-date = "2011-08-01"
-title = "FreeBSD 9.0-BETA1 Available"
-description = "The first test build for the FreeBSD -9.0 release cycle is now available. ISO images for the architectures amd64, i386, ia64, powerpc, powerpc64, and sparc64 are <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-August/063457.html\">available</a> on most of our <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. One of the many new features in 9.0 we would like to be tested is the new installer, so we encourage our users to do fresh installation on test systems."
 
 [[news]]
 date = "2011-07-17"
@@ -2485,39 +1795,14 @@ date = "2011-02-18"
 description = "Enhanced commit privileges: <a href=\"mailto:miwi@FreeBSD.org\">Martin Wilke</a> (src, ports, doc)"
 
 [[news]]
-date = "2011-02-03"
-title = "FreeBSD 7.4/8.2-RC3 Available"
-description = "The third (and probably last) Release Candidate builds for the FreeBSD -7.4/8.2 release cycles are now available. For 8.2-RC3 the amd64, i386, ia64, pc98, powerpc, and sparc64 architectures are available. For 7.4-RC3 the amd64, i386, pc98, and sparc64 architectures are available. ISO images for these architectures can be downloaded from most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. Please see the official <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-February/061353.html\">announcement</a> for further details about these releases."
-
-[[news]]
 date = "2011-01-25"
 title = "October-December, 2010 Status Report"
 description = "The October-December, 2010 Status Report is <a href=\"https://www.freebsd.org/news/status/report-2010-10-2010-12.html\">now available</a> with 37 entries."
 
 [[news]]
-date = "2011-01-23"
-title = "FreeBSD 7.4-RC2 Available"
-description = "The second Release Candidate build for the FreeBSD -7.4 release cycle is now available. ISO images for Tier-1 architectures can be downloaded from most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. Please see the official <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-January/061218.html\">announcement</a> for further details about this release."
-
-[[news]]
-date = "2011-01-16"
-title = "FreeBSD 8.2-RC2 Available"
-description = "The second Release Candidate build for the FreeBSD -8.2 release cycle is now available. ISO images for Tier-1 architectures can be downloaded from most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. Please see the official <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2011-January/061131.html\">announcement</a> for further details about this release."
-
-[[news]]
-date = "2010-12-27"
-title = "FreeBSD 7.4/8.2-RC1 Available"
-description = "The first Release Candidate builds for the FreeBSD -7.4/8.2 release cycles are now available. ISO images for Tier-1 architectures can be downloaded from most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. Please see the official <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-December/060757.html\">announcement</a> for further details about these releases."
-
-[[news]]
 date = "2010-12-16"
 title = "FreeBSD Foundation December 2010 Newsletter"
 description = "The FreeBSD Foundation has published their <a href=\"https://www.freebsdfoundation.org/press/2010Dec-newsletter.shtml\">End-of-Year newsletter</a> which summarizes what they have done in 2010 to help the FreeBSD Project and community."
-
-[[news]]
-date = "2010-12-11"
-title = "FreeBSD 7.4/8.2-BETA1 Available"
-description = "The first of the test builds for the FreeBSD -7.4/8.2 release cycles is now available. ISO images for Tier-1 architectures are now <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-December/060541.html\">available</a> on most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2010-12-07"
@@ -2618,16 +1903,6 @@ title = "New FreeBSD Core Team elected"
 description = "The FreeBSD Project is pleased to announce the completion of the 2010 Core Team election. The FreeBSD Core Team acts as the project's \"board of directors\" and is responsible for approving new src committers, resolving disputes between developers, appointing sub-committees for specific purposes (security officer, release engineering, port managers, webmaster, etc...), and making any other administrative or policy decisions as needed. The Core Team has been elected by FreeBSD developers every 2 years since 2000. More information about the election (together with a list of the new members of the Core Team) can be found in the official <a href=\"https://docs.freebsd.org/cgi/mid.cgi?20100714193552.GS32232\">announcement</a>."
 
 [[news]]
-date = "2010-07-02"
-title = "FreeBSD 8.1-RC2 available"
-description = "The second (and most likely final) Release Candidate build for the FreeBSD -8.1 release cycle is now available. CD ISO images for the amd64, i386, ia64, powerpc, and sparc64 architectures can be downloaded from most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. Please see the official <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-July/057552.html\">announcement</a> for further details about this release."
-
-[[news]]
-date = "2010-06-18"
-title = "FreeBSD 8.1-RC1 Available"
-description = "The first Release Candidate build for the FreeBSD -8.1 release cycle is now available. ISO images for Tier-1 architectures can be downloaded from most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>. Please see the official <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-June/057320.html\">announcement</a> for further details about this release."
-
-[[news]]
 date = "2010-06-10"
 description = "New committer: <a href=\"mailto:ashish@FreeBSD.org\">Ashish SHUKLA</a> (ports)"
 
@@ -2646,11 +1921,6 @@ description = "New committer: <a href=\"mailto:ae@FreeBSD.org\">Andrey V. Elsuko
 [[news]]
 date = "2010-06-03"
 description = "New committer: <a href=\"mailto:taras@FreeBSD.org\">Taras Korenko</a> (doc/ru, www/ru)"
-
-[[news]]
-date = "2010-05-29"
-title = "FreeBSD 8.1-BETA1 Available"
-description = "The first of the test builds for the FreeBSD -8.1 release cycle is now available. ISO images for Tier-1 architectures are now <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-May/057040.html\">available</a> on most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2010-05-24"
@@ -2718,11 +1988,6 @@ date = "2010-03-07"
 description = "Returning committer: <a href=\"mailto:niels@FreeBSD.org\">Niels Heinen</a> (ports)"
 
 [[news]]
-date = "2010-03-04"
-title = "FreeBSD 7.3-RC2 Available"
-description = "The second Release Candidate build for the FreeBSD -7.3 release cycle is now available. ISO images for Tier-1 architectures are now <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-March/055596.html\">available</a> on most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
-
-[[news]]
 date = "2010-03-03"
 description = "New committer: <a href=\"mailto:neel@FreeBSD.org\">Neel Natu</a> (src)"
 
@@ -2730,11 +1995,6 @@ description = "New committer: <a href=\"mailto:neel@FreeBSD.org\">Neel Natu</a> 
 date = "2010-02-22"
 title = "PC-BSD 8.0 Released"
 description = "PC-BSD 8.0 has been released. PC-BSD is a successful desktop operating system based on FreeBSD that focuses on providing an easy to use desktop system for casual computer users. A list of new features/updates since the last version can be found <a href=\"http://www.pcbsd.org/content/view/151/11/\">here</a>. The new release can be <a href=\"http://www.pcbsd.org\">downloaded</a> or <a href=\"http://www.freebsdmall.com\">purchased</a> on DVD."
-
-[[news]]
-date = "2010-02-15"
-title = "FreeBSD 7.3-RC1 Available"
-description = "The first Release Candidate build for the FreeBSD -7.3 release cycle is now available. ISO images for Tier-1 architectures are now <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-February/055146.html\">available</a> on most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2010-02-12"
@@ -2748,11 +2008,6 @@ description = "New committer: <a href=\"mailto:bschmidt@FreeBSD.org\">Bernhard S
 date = "2010-02-02"
 title = "Enhanced commit privileges: <a href=\"mailto:gabor@FreeBSD.org\">Gábor Kövesdán</a> (src, ports, doc)"
 description = "<a href=\"mailto:gabor@FreeBSD.org\">Gábor Kövesdán</a> participated in <a href=\"http://code.google.com/soc\">Google Summer of Code</a> 2008/2009 and for his work he has been given commit access to the source code. His first pieces of work will be bringing in the result of his summer work into the tree."
-
-[[news]]
-date = "2010-01-30"
-title = "FreeBSD 7.3-BETA1 Available"
-description = "The first BETA build for the FreeBSD -7.3 release cycle is now available. ISO images for Tier-1 architectures are now <a href=\"https://lists.freebsd.org/pipermail/freebsd-stable/2010-January/054608.html\">available</a> on most of the <a href=\"https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html\">FreeBSD mirror sites</a>."
 
 [[news]]
 date = "2010-01-29"
