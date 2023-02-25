@@ -1459,7 +1459,7 @@ This displays the details of the requested operation without actually performing
 This helps confirm that the operation will do what the user intends.
 
 [[zfs-zfs]]
-== `zfs` Administration
+== Dataset Administration
 
 The `zfs` utility can create, destroy, and manage all existing ZFS datasets within a pool.
 To manage the pool itself, use <<zfs-zpool,`zpool`>>.
