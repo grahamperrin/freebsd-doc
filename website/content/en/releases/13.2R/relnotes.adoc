@@ -278,6 +278,10 @@ gitref:b8ef2ca9eae9[repository=src]
 The man:irdma[4] driver was introduced for the Intel E810 Ethernet Controller, supporting both RoCEv2 and iWARP protocols in per-PF manner, RoCEv2 being the default.
 gitref:42bad04a2156[repository=src] (Sponsored by Intel Corporation)
 
+The new man:rtw88[4] driver introduces IEEE 802.11n/ac support for Realtek chips such as the RTL8822CE. 
+Background: https://wiki.freebsd.org/WiFi/Rtw88[].
+gitref:b130a058aaf8[repository=src]
+
 Initial support is now available for DPAA2 (second generation Data Path Acceleration Architecture – a hardware-level networking architecture found in some NXP SoCs).
 It runs NXP-supplied firmware which provides DPAA2 objects as an abstraction layer, and provides a `dpni` network interface.
 gitref:d5a64a935bc9[repository=src] (Sponsored by Bare Enthusiasm :) and Traverse Technologies)
