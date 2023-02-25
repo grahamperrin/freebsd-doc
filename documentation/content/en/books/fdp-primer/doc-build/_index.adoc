@@ -115,13 +115,13 @@ To render the documentation and the website to `html` use one of the following e
 Advanced build examples are given below:
 
 [[documentation-build-example-verbose]]
-.Build the documentation with verbose and debug messages
+.Build English and Spanish documentation with verbose and debug messages
 [example]
 ====
 [source,shell]
 ....
 % cd ~/doc/documentation
-% make HUGO_ARGS="--verbose --debug --path-warnings"
+% make DOC_LANG="en es" HUGO_ARGS="--verbose --debug"
 ....
 ====
 
@@ -148,6 +148,25 @@ A `hostname` can also be set as base url to Hugo’s internal webserver:
 [source,shell]
 ....
 % make run BIND=192.168.15.10 HOSTNAME=example.com
+....
+====
+
+[[documentation-build-example-offline]]
+.Build documentation in html for offline usage
+[example]
+====
+[source,shell]
+....
+% cd ~/doc/documentation
+% make html
+....
+
+To compress the html output, add `DOC_HTML_ARCHIVE=1`:
+
+[source,shell]
+....
+% cd ~/doc/documentation
+% DOC_HTML_ARCHIVE=1 make html
 ....
 ====
 

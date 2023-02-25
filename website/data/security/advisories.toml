@@ -2,6 +2,26 @@
 # $FreeBSD$
 
 [[advisories]]
+name = "FreeBSD-SA-23:03.openssl"
+date = "2023-02-16"
+
+[[advisories]]
+name = "FreeBSD-SA-23:02.openssh"
+date = "2023-02-16"
+
+[[advisories]]
+name = "FreeBSD-SA-23:01.geli"
+date = "2023-02-08"
+
+[[advisories]]
+name = "FreeBSD-SA-22:15.ping"
+date = "2022-11-29"
+
+[[advisories]]
+name = "FreeBSD-SA-22:14.heimdal"
+date = "2022-11-15"
+
+[[advisories]]
 name = "FreeBSD-SA-22:13.zlib"
 date = "2022-08-30"
 

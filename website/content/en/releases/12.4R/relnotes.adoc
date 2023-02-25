@@ -57,7 +57,6 @@ Upgrading FreeBSD should only be attempted after backing up _all_ data and confi
 
 This section lists the various Security Advisories and Errata Notices since {releasePrev}.
 
-////
 [[security]]
 === Security Advisories
 
@@ -75,10 +74,10 @@ This section lists the various Security Advisories and Errata Notices since {rel
 |link:https://www.FreeBSD.org/security/advisories/FreeBSD-SA-22:10.aio.asc[FreeBSD-SA-22:10.aio] |9 August 2022 |AIO credential reference count leak
 |link:https://www.FreeBSD.org/security/advisories/FreeBSD-SA-22:11.vm.asc[FreeBSD-SA-22:11.vm] |9 August 2022 |Memory disclosure by stale virtual memory mapping
 |link:https://www.FreeBSD.org/security/advisories/FreeBSD-SA-22:13.zlib.asc[FreeBSD-SA-22:13.zlib] |30 August 2022 |zlib heap buffer overflow
+|link:https://www.FreeBSD.org/security/advisories/FreeBSD-SA-22:14.heimdal.asc[FreeBSD-SA-22:14.heimdal] |29 November 2022 (revised)|Multiple vulnerabilities in Heimdal
+|link:https://www.FreeBSD.org/security/advisories/FreeBSD-SA-22:15.ping.asc[FreeBSD-SA-22:15.ping] |29 November 2022 |Stack overflow in ping(8)
 |===
-////
 
-////
 [[errata]]
 === Errata Notices
 
@@ -95,31 +94,166 @@ This section lists the various Security Advisories and Errata Notices since {rel
 |link:https://www.FreeBSD.org/security/advisories/FreeBSD-EN-22:17.cam.asc[FreeBSD-EN-22:17.cam] |9 August 2022 |Kernel memory corruption during SCSI error recovery
 |link:https://www.FreeBSD.org/security/advisories/FreeBSD-EN-22:20.tzdata.asc[FreeBSD-EN-22:20.tzdata] |30 August 2022 |Timezone database information update
 |link:https://www.FreeBSD.org/security/advisories/FreeBSD-EN-22:22.tzdata.asc[FreeBSD-EN-22:22.tzdata] |1 November 2022 |Timezone database information update
+|link:https://www.FreeBSD.org/security/advisories/FreeBSD-EN-22:28.heimdal.asc[FreeBSD-EN-22:28.heimdal] |29 November 2022 |Regression in Heimdal KDC
 |===
-////
 
 [[userland]]
 == Userland
 
 This section covers changes and additions to userland applications, contributed software, and system utilities.
 
-[[userland-config]]
-=== Userland Configuration Changes
-
-// SAMPLE ENTRY:
-// A new man:rc.conf[5] variable has been added, `linux_mounts_enable`, which controls if Linux(R)-specific filesystems are mounted in [.filename]#/compat/linux# if `linux_enable` is set to `YES`. {{< revision "364883" >}} (Sponsored by The FreeBSD Foundation)
-
 [[userland-programs]]
 === Userland Application Changes
 
+The man:ar[1] utility does not overwrite the stdout stream pointer to make it compatible with the musl library. It also deprecates the `-T` flag.
+gitref:21a6c9bd6f2f962ce22e17b99e2c1d6afa15a5e3[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:cp[1] utility will detect infinite recursion caused by `-R` flag and squash it.
+gitref:b57954717ddfe52be9e18591d302c61e50db0aa6[repository=src]
+gitref:a605ca25ef681452e25622a44917cbb5033eaae4[repository=src]
+{{< sponsored "Klara, Inc." >}}
+
+The man:cp[1] utility will honor properly `-H`, `-L` and `-P` flags. Notably, it will not resolve symlinks encountered during traversal when either `-H` or `-P` are specified.
+gitref:1d9f60b0512802806d3dea3c5fcc6a0d8780259f[repository=src]
+{{< sponsored "Klara, Inc." >}}
+
+The man:cp[1] utility will allow `-P` working without `-R` as per POSIX.
+gitref:19413ce66cc02d676e0778eb9519284e47d7d8e1[repository=src]
+
+The man:df[1] utility will now support using `-l` and `-t` flags together. If both are specified, the parameter list of the `-t` option is applied on top of the selection of local file systems.
+gitref:741b90dc69ee9e9f3bbd2b0548ea214030c4ea34[repository=src]
+
+The man:elfctl[1] utility will avoid touching files if no changes are made.
+gitref:e048bd5c0954814f72e04df8b7b7ff183da45a19[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:elfctl[1] utility will detect if host endianness is different from target endianness and swap byte order of ELF note fields instead of failing.
+gitref:c7d961a398937a851e3b28fe35f6effda5993405[repository=src]
+{{< sponsored "Stormshield" >}}
+
+The man:elfctl[1] utility had some improvements to the manual page.
+gitref:f3cdcf235966b9c39a0ce8147e4148ecc6bf272e[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:elfctl[1] utility had a number of bugs fixed involving operations with multiple features on multiple files, `-e` being specified multiple times and error handling for the `-e` flag.
+gitref:bbb92ab05fa2d039905ef988ca31b4356b01d964[repository=src]
+gitref:a528bad95e0c80fe612051076d53b8bc8283e239[repository=src]
+gitref:d3cbb4745a13d5155597e66281efa05cb6a7c72a[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:fsck_ufs[8] utility had a segfault bug fixed when using with man:gjournal[8].
+gitref:f8145bd4bcc025fbb1750d9daf75e92916db4192[repository=src]
+
+The man:growfs[8] utility will not error if the file system is already the requested size.
+gitref:11f45b8f800975e0484940430b988b2006caf1e4[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:nfsd[8] utility had a number of sanity checks added.
+gitref:0f2244008573e4a3d8dd4131972eefbf1bec681e[repository=src]
+gitref:b5c577931db12c68f5a20fa11c9502049c3cdb40[repository=src]
+gitref:5ad7804beb38fdc23f0f161484f5469e38c8fade[repository=src]
+gitref:c0ea059da22f0f1f20ee43db536a74032f140429[repository=src]
+
+The man:nfsd[8] utility had a bug fixed when verifying for attributes like FilesAvail.
+gitref:b386392ea909bff2d4b3c46d43ba9c1ee3217e42[repository=src]
+
+The man:nfsd[8] utility had a bug fixed regarding session slot freeing for NFSv4.1/4.2
+gitref:81091a7ca11acd5adcc673ffd06f8e08791386ea[repository=src]
+
+The man:nfsd[8] utility had a bug fixed when handling of Open/Create for the pNFS server.
+gitref:d5c176ad6a7b0cd78e3b893284b292e18ecb804f[repository=src]
+
+The man:sh[1] utility will now read more profile files. It will load each .sh file in /etc/profile.d, then /usr/local/etc/profile, then each .sh file in /usr/local/etc/profile.d/.
+gitref:73ab1c87c208dbb0609be572eb31591353d71e07[repository=src]
+
+The man:usbconfig[8] utility will use man:getopt[3] to handle options.
+gitref:081853844bd4c43a59ac22357d41bb3abc39a45a[repository=src]
+
+The man:usbconfig[8] utility had its documentation improved.
+gitref:940db7edacb21a513924472f6cf4eec6a5e75090[repository=src]
+
+The man:usbconfig[8] utility has been improved by adding a `-v` flag.
+gitref:bb0b7f405138c1bf208a619847aba4132ae37a19[repository=src]
+gitref:1cab5dac1c2d542f5f6d6719b6efd635264b2e34[repository=src]
 
 [[userland-contrib]]
 === Contributed Software
 
+The man:blacklistd[8] daemon will now handle 0-sized messages.
+gitref:5f7ae464db5bd1527a844c228afc269cedb6822c[repository=src]
 
-[[userland-libraries]]
-=== Runtime Libraries and API
+The man:dma[8] utility has been updated to snapshot 2022-01-27.
+gitref:27941a274ebff0dbe94964e584101fece7967d96[repository=src]
 
+The man:dma[8] mail agent will now exit if invoked with invalid (zero) argc.
+gitref:647d3bf17cd907ded624dccf4fe4567924c4f399[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:dma[8] mail agent will now limit lines to 998 characters, as per RFC2822.
+gitref:5c1ee92b0ebab49577d065baf7f37a8ffcde4259[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The expat C library for parsing XML has been updated to version 2.4.9.
+gitref:8a7b2fbbaae423161ba8f92b0cff6f710d12b2a7[repository=src]
+
+The man:file[1] utility has been updated to version 5.43.
+gitref:91f1a04f9baab59eb289a6a6f7213a5f83ba856b[repository=src]
+
+The man:libarchive[3] library has been updated to version 3.6.0.
+gitref:bbc312a1ec992ad32d02df7dfbea216b7cd095eb[repository=src]
+
+The LLVM toolchain suite has been updated to version 13.0.0.
+gitref:838e2fa19531c45727938a9160cdd78ecedf8c92[repository=src]
+
+The man:mandoc[1] utility has been updated to version 1.14.6.
+gitref:6ec92eb155fbdd860c824cf6478554d08b74d160[repository=src]
+
+OpenBSM had a bug fixed about free() in au_read_rec error case.
+gitref:990aa6476eec17339c170ac12f75fc253e8ec4c8[repository=src]
+
+OpenSSL has been updated to 1.1.1q.
+gitref:c83325e95a98991ec46e0c881559d3dbfaf36081[repository=src]
+
+OpenSSH has been updated to 9.1p1.
+gitref:50cb877af1fb6de40baa305dca93afdbd4de6568[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:sendmail[8] mail transport agent had a bug fixed about authentication with cyrus-sasl-2.1.28.
+gitref:1ccfac2381c3a8a399be260377bb9181d4590a6c[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:sqlite3[1] utility has been updated to version 3.39.3.
+gitref:25fd07c106d82b13f6c618d129cb850a6b366228[repository=src]
+
+The man:telnet[1] utility now silently ignores invalid `set ' '` and invalid `help help` commands instead of having a segmentation fault.
+gitref:eeadef8fd52388bb9345df0ef472e0e7feca4afa[repository=src]
+
+The man:telnet[1] utility had CVE-2020-39028 fixed.
+gitref:f2aa49e7fda515163da188ec75dba223e2e52216[repository=src]
+
+The man:telnet[1] utility had CVE-2020-10188 fixed.
+gitref:229863871f52ee8f1a08f40c330eeb9e8bab9bb3[repository=src]
+
+The man:telnetd[8] daemon has been deprecated.
+gitref:616b1b813891d469afc82df175cf50817d03ba25[repository=src]
+
+The man:tcpdump[1] utility now allow users to set a number on rules which will be exposed as part of the pflog header.
+gitref:7f944794868f49c59449086a3755d72e7f747e41[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The tzdata information was updated to correct DST (Daylight Savings Time) in Fiji and Palestine.
+gitref:74a0f31dbbd0b32689d63d8c965c611bdfc4da2f[repository=src]
+gitref:89e293e5dcb42e1fd312aab79d045c3eaa017bb6[repository=src]
+
+The tzdata 2022f was imported into the tree.
+gitref:df5c24d590895801e3d62494e1a350f4fed6a4f6[repository=src]
+
+The man:unbound[8] utility has been updated to version 1.16.3.
+gitref:51206a8d11ae17ee3a64c51a1afc7e5bf7881da4[repository=src]
+
+wpa has been updated to version 2.10. This includes hostapd 2.10.
+gitref:ea5113953168dcc26fce5f602c563fc0eebd2fe7[repository=src]
 
 [[kernel]]
 == Kernel
@@ -129,14 +263,155 @@ This section covers changes to kernel configurations, system tuning, and system 
 [[kernel-general]]
 === General Kernel Changes
 
+The man:hwpmc[4] framework had a counter/interrupt state initialization bug fixed for arm64.
+gitref:c8a4404da737ea7e859287094de38953a84bdd68[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:hwpmc[4] framework has added IDs for Intel Comet/Ice/Tiger/Rocketlake CPUs.
+gitref:d2138bddf3ecf171dfe8a92f2cf74f9487b09630[repository=src]
+
+The man:iflib[4] network interface had some data races that produced crashes on VMWare guests using the vmxnet3 driver fixed.
+gitref:f43d2e1199b9fd265b72281d2779e2554fa7cb6d[repository=src]
+
+The man:iflib[4] network interface had the vlan processing in the drivers fixed.
+gitref:cf101bd5ceebe2b2d229faa949dbf3e146d04382[repository=src]
+
+The man:iflib[4] network interface driver framework had a lock order reversal (LOR) fixed.
+gitref:ea25a6af57e0ce1551341e3b1652233cdb11bee1[repository=src]
+
+The man:net80211[4] interface had some mitigations included agains A-MSDU design flaws (CVE-2020-24588).
+gitref:76ee776f4d9f146f7a97ac9bab388c51a1c787c9[repository=src]
+
+The man:net80211[4] interface will now reject mixed plaintext/encrypted fragments (CVE-2020-26147).
+gitref:00cd5a2f614ae2cf1daa30cde7f91de9cdde2393[repository=src]
+
+The man:net80211[4] interface will now prevent plaintext injection by A-MSDU RFC1042/EAPOL frames (CVE-2020-26144).
+gitref:2d09e4366b67dd719ebae5390436868e5430d833[repository=src]
+
+The man:net80211[4] interface has improved several validations including SSID length and Mesh ID length.
+gitref:f4d0e8787a09f4cdfb856924aaca97f1c78b65b1[repository=src]
+gitref:e7c990ba3f8de8c4882390cad9b01a9fa25ad068[repository=src]
+
+The man:pf[4] framework now ensures the correct source/destination IP address in ICMP errors.
+gitref:a50876f0ac7a5839531c0c169cb1c88bc6e13389[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The man:pf[4] framework had some memory leaks fixed.
+gitref:329c9b9da5928e0a2de0014c4f6a254ceae299ec[repository=src]
+
+The man:pf[4] framework provides improved route-to handling of man:pfsync[4]'d states.
+gitref:592b4f93632aa1e0bfd9f28ccfd4ab46ecc99bf4[repository=src]
+{{< sponsored "Orange Business Services" >}}
+
+The man:sched_ule[4] scheduler had a bug fixed about a loss of significance when setting kern.sched.interact above 32.
+gitref:b7eded5ea1f1b051489627989c13d9e48521ed9f[repository=src]
+
+The vm subsystem had a problem fixed that broke the vm reservation when it was mistakenly unable to provide a satisfactory set of pages.
+gitref:46549e319c5257c1305d78930b81ef022fa2e178[repository=src]
+
+Images for installation from DVD have fixes to symbolic links, for easier use of on-disc packages.
+gitref:7b05f19e9708[repository=src] (Sponsored by Rubicon Communications, LLC ("Netgate"))
 
 [[drivers]]
 == Devices and Drivers
 
-
 [[drivers-device]]
 === Device Drivers
 
+The man:aesni[4] driver for the AES and SHA accelerator on x86 CPUs had a bug fixed about a potential out-of-bounds access.
+gitref:83d0a7763a92b893875548812d2a3aea651e971f[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:aw_spi[4] driver for the SPI controller in Allwinner SoC has improved I/O stability regarding TX FIFO underruns and RX FIFO overflows.
+gitref:1e7b0dc0007601b14ed656150b322498cd8c0fde[repository=src]
+
+The man:carp[4] protocol now gracefully deals with negative values of `net.inet.carp.demotion`.
+gitref:1c16de99bd7ddddad9d5877ba0f91aa2a2f57eb3[repository=src]
+{{< sponsored "Modirum MDPay" >}}
+
+The man:ena[4] kernel driver has been updated to 2.6.1.
+gitref:1a97579ae67a7df256a45f0647337c30475d376b[repository=src]
+{{< sponsored "Amazon, Inc." >}}
+
+The man:if_epair[4] driver now allows multiple cores to be used to process traffic to improve performance.
+gitref:092da35a0d80af7a3e5c5c22cbeddb6cffbd9524[repository=src]
+{{< sponsored "Orange Business Services" >}}
+
+The man:if_gif[4] tunnel interface had a panic on shutdown fixed.
+gitref:b4a51fd9c12493e9e7ca6e2ac572ec41d99a941c[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The man:if_pflog[4] device had a bug fixed regarding packet length.
+gitref:d41caea44ba9f676b72d9a27d53de520ef61e196[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The man:if_vlan[4] network interface had a bug fixed that avoids hash table thrashing when adding and removing entries.
+gitref:a5f19abeb7191cb3cd89f06ff0eb150b89d6b8bf[repository=src]
+{{< sponsored "NetApp, Inc." >}}
+
+The man:igc[4] Ethernet controller had a bug that prevented to correctly update RCTL when changing filters.
+gitref:73e1138208a5888aaabfc44d8e48aa04554c9146[repository=src]
+
+The man:ixl[4] driver had some fixes for VLAN HW filtering.
+gitref:83ca71099913c3524d66cbc4ed45d840ade29a5a[repository=src]
+
+The man:ixl[4] driver had some panics fixed.
+gitref:749c7da9b9b45949c2aae76bffafb626e7316b06[repository=src]
+
+The man:mpr[4] had a panic fixed during firmware update.
+gitref:956f15e74d66c7f9cfd35a8ac553c48fb5624b56[repository=src]
+
+The man:mpr[4] and man:mps[4] drivers had a more robust device mapping implemented.
+gitref:9d842d84f49af6d4aacaea694dcaea4173522684[repository=src]
+{{< sponsored "iXsystems, Inc." >}}
+
+The man:ocs_fc[4] device driver had a memory leak fixed.
+gitref:12e6cbd158530259d951e3e246a52ddc57fa644b[repository=src]
+
+The man:ocs_fc[4] device driver had two use-after-free bugs fixed.
+gitref:241d1376550452d2da5eb80e9ee5d84ae567dd7b[repository=src]
+gitref:fa3e66e9f7cd903050454fc284e2709a9e28e651[repository=src]
+
+The man:ocs_fc[4] device driver had a possible null pointer dereference fixed.
+gitref:9199f5e0ba5c20e2f170b549a743a550d9b38ec8[repository=src]
+
+The man:pfsync[4] pseudo-device had some locking bugs fixed.
+gitref:7164b77ce2f3ecc3697a5ea9a225ff15a6a421ab[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The man:pfsync[4] pseudo-device had some NULL check bugs fixed.
+gitref:bbbe18b317956f3e0d87a277acc1941222fa8eb9[repository=src]
+gitref:f3b722fed330ee3a08a21947d6b4cf2fb70cc562[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The man:pfsync[4] pseudo-device had a defer mode bug fixed.
+gitref:c36006be54242b3c4e07ac646bebb642555e5905[repository=src]
+(Sponsored by Rubicon Communications, LLC ("Netgate"))
+
+The man:random[4] driver on x86 will now prefer RDSEED over RDRAND when available as per Intel documentation.
+gitref:a68e606c402ea5ce2c8257d0566e6f397594aa54[repository=src]
+
+The man:random[4] device had some improvements that now make entropy sources deregistration-safe.
+gitref:7878a69e0415251e4c7a0d3447f998207258ad41[repository=src]
+
+The man:rk_i2c[4] driver had a number of improvements including the increasing of the number of bytes that can be sent to 32.
+gitref:342d73431ee555ae9a62820c28a39ee53cffc9e5[repository=src]
+
+The man:snd_uaudio[4] USB audio and MIDI driver had some string computations for iFeature fixed.
+gitref:43a03be0bb5070b445b1c16d17b1791d345ec5d0[repository=src]
+{{< sponsored "NVIDIA Networking" >}}
+
+The man:usb[4] driver had a use-after-free bug fixed.
+gitref:bb9bee1ffbb27f903bfd2c11d681d331bea727ea[repository=src]
+{{< sponsored "NVIDIA Networking" >}}
+
+The man:vt[4] virtual terminal console driver had a bug fixed regarding double-click word selection for first/last word on line.
+gitref:caeade0e00d50ec7a2392a3d28d85f2ec535344b[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:vt[4] virtual terminal console driver had a bug fixed about color in pixel blocks with more than 4 colors.
+gitref:4e4e477d89fd0333425ed4623858082bdb58ffe7[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
 
 [[storage]]
 == Storage
@@ -145,6 +420,26 @@ This section covers changes and additions to file systems and other storage subs
 
 [[storage-general]]
 === General Storage
+
+The man:fusefs[5] file system in userspace had a race condition fixed.
+gitref:c85846ea3ea531affb80edb2c982017d35b5a40f[repository=src]
+
+The man:fusefs[5] file system in userspace had a couple of bugs regarding VOP_RECLAIM fixed.
+gitref:4d5fb17274aa868561e99d714b75f0ddee446948[repository=src]
+
+The man:fusefs[5] file system had an undefined variable access fixed.
+gitref:20004b265add4425851a0ee3bbef0139b0baae6d[repository=src]
+{{< sponsored "Axcient" >}}
+
+The NFS client code had a forced dismount looping fixed.
+gitref:00e9bc2d937fd8de6638c4a5669e78f04cd94110[repository=src]
+
+The NFS client code had a number of bug fixes including two use-after-free bugs.
+gitref:04c2ce41e3fcdef045eeea9f338f6b0eb547f64d[repository=src]
+gitref:22d6238a047311edf01df8b1b04bb2af3c99ae15[repository=src]
+
+The NFS client code had a race condition fixed.
+gitref:ca826694e3b08133b9e16744e1178863cfc4c16b[repository=src]
 
 
 [[boot]]
@@ -164,7 +459,30 @@ This section describes changes that affect networking in FreeBSD.
 [[network-general]]
 === General Network
 
+The man:dummynet[4] system facility had an out-of-bounds bug fixed.
+gitref:55351c2620c5c9387cacc47def0f8c0bcec237f0[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
 
+The man:dummynet[4] system facility had a bug regarding the validation of the length of socket options fixed.
+gitref:3f22f161b936b6279a68d6e9439b30f2abb50cad[repository=src]
+{{< sponsored "The FreeBSD Foundation" >}}
+
+The man:ipfilter[4] packet filter added the `DT5` and `SDT` man:dtrace[1] probes.
+gitref:67b86b71c19ce44dd98cd63f6f684354cd0f351e[repository=src]
+gitref:09aa9a1f82bfccfd7e87dcf7f2bf055d2c137b52[repository=src]
+
+From now on, to improve security, man:ipfilter[4] only allows jails to manipulate ipfilter rules, NAT tables, and ippools if the jail has its own VNET.
+gitref:ed86cf0121f9a28e754f605c5be6c6576cde6c64[repository=src]
+
+The man:ipfilter[4] packet filter has now the ability to dump a copy of ippool in ippool.conf format.
+gitref:95dfabe85a544f77c926ce799442da5c1ff05756[repository=src]
+
+The man:netmap[4] framework had a bug regarding an integer overflow fixed (CVE-2022-23085).
+gitref:95602165e33a3045a27245cc1e61e67bf4feeed1[repository=src]
+
+The man:netmap[4] framework had a fix for a TOCTOU vulnerability (CVE-2022-23084).
+gitref:6fa8af618475024262fc99b0f0e6c2aa0e1340fe[respository=src]
+////
 [[future-releases]]
 == General Notes Regarding Future FreeBSD Releases
 
@@ -187,3 +505,4 @@ This is expected to be the final bump of the default `CPUTYPE` in i386.
 ====
 This change does not affect the FreeBSD 12.x series of releases.
 ====
+////

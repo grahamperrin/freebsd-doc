@@ -8,6 +8,7 @@ tags: ["updating", "upgrading", "documentation", "FreeBSD-STABLE", "FreeBSD-CURR
 showBookMenu: true
 weight: 20
 path: "/books/handbook/"
+aliases: ["/ja/books/handbook/updating-upgrading-freebsdupdate/","/ja/books/handbook/updating-upgrading-documentation/","/ja/books/handbook/current-stable/","/ja/books/handbook/makeworld/","/ja/books/handbook/small-lan/"]
 ---
 
 [[updating-upgrading]]
@@ -53,16 +54,16 @@ endif::[]
 
 あるリリースから次のリリースまでの期間にも、 FreeBSD の開発は休みなく続けられています。
 最新の開発ツリーと同期することを好む人がいる一方で、公式のリリース版を好んで使う方もいます。
-しかしながら、公式のリリースといえども、 セキュリティや他の重要な修正のため、時にはアップデートが行われます。
-使用しているバージョンに関わらず、FreeBSD は手元のシステムを最新の開発ツリーと同期するために必要なツールをすべて用意しているので、これらのツールを使ってバージョンのアップグレードを簡単に行うことができます。
+しかしながら、公式のリリースといえども、 セキュリティや他の重要な修正のため、時にはアップデートが必要となります。
+FreeBSD は手元のシステムを最新の開発ツリーと同期するために必要なツールをすべて用意しているので、使用しているバージョンに関わらず、これらのツールを使って簡単にシステムのバージョンをアップグレードできます。
 この章では、開発ブランチを追いかける方法、および、FreeBSD システムをアップデートする基本的なツールについて解説します。
 
-この章を読んで分かるのは:
+この章では以下について説明します。
 
 * freebsd-update もしくは Git を使った FreeBSD システムの更新方法
-* インストールされているシステムと、変更が行われていない状態との比較方法。
-* Git またはドキュメント用の ports を使って、 インストールされているドキュメントを最新版にアップデートする方法。
-* 2 つの開発ブランチ、FreeBSD-STABLE と FreeBSD-CURRENT の違い
+* インストールされているシステムと、変更が行われていない状態との比較方法
+* Git またはドキュメント用の ports を使って、 インストールされているドキュメントを最新版にアップデートする方法
+* 2 つの開発ブランチ、FreeBSD-STABLE と FreeBSD-CURRENT の違いについて
 * ベースシステム全体を再構築しインストールする方法
 
 この章を読む前に、以下の準備をしましょう。
@@ -173,6 +174,8 @@ MergeChanges /etc/ /var/named/etc/ /boot/device.hints
 
 このオプションを `yes` に設定すると、`freebsd-update` は `Components` のリストが完全に正しいと判断し、このリスト以外の変更点については取り扱いません。
 `freebsd-update` は、効率的に `Components` リストに属するファイルをアップデートします。
+
+詳細については、man:freebsd-update.conf[5] を参照してください。
 
 [[freebsdupdate-security-patches]]
 === セキュリティパッチの適用
@@ -602,7 +605,7 @@ FreeBSD-STABLE を追いかけるには
 . 新しい FreeBSD-STABLE システムをインストールするには、 crossref:mirrors[mirrors,ミラーサイト] から最近の FreeBSD-STABLE リリースをインストールするか、毎月公開されている FreeBSD-STABLE からビルドされたスナップショットを使ってください。
 スナップショットの詳細については、link:https://www.FreeBSD.org/ja/snapshots/[www.freebsd.org/ja/snapshots] をご覧ください。
 +
-既に FreeBSD が動いているシステムを FreeBSD-STABLE にアップグレードするには、 crossref:mirrors[svn,svn] を使って、希望する開発ブランチのソースをチェックアウしてください。
+既に FreeBSD が動いているシステムを FreeBSD-STABLE にアップグレードするには、`git` を使って、希望する開発ブランチのソースをチェックアウしてください。
 `stable/9` といったブランチ名は、link:https://www.FreeBSD.org/releng/[www.freebsd.org/releng] で説明されています。
 . FreeBSD-STABLE をコンパイルしたり FreeBSD-STABLE へとアップグレードする前に、 [.filename]#/usr/src/Makefile# を注意深く読み、 <<makeworld>> に書かれている手順に従ってください。
 {freebsd-stable} と [.filename]#/usr/src/UPDATING# を読んで、次のリリースへ向けて移ってゆくに当たって、ときどき必要となる既存システムからの新システムの構築手順についての最新情報を得てください。
@@ -614,10 +617,11 @@ FreeBSD は、バージョン情報をカーネルのコンパイル時に埋め
 man:uname[1] を使ってこの情報を調べることができます。以下はその例です。
 [source,shell]
 ....
-% uname -a
+% uname -v
 FreeBSD 14.0-CURRENT #112 main-n247514-031260d64c18: Tue Jun 22 20:43:19 MDT 2021     fred@machine:/usr/home/fred/obj/usr/home/fred/git/head/amd64.amd64/sys/FRED
 ....
-4 番目のフィールドを見ると、いくつかの要素から構成されていることがわかります。
+最後のフィールドから、カーネル名、ビルドを行ったユーザ、およびコンパイルを行った場所がわかります。
+また、4 番目のフィールドは、いくつかの要素から構成されていることがわかります。
 [source,shell]
 ....
 main-n247514-031260d64c18
@@ -668,14 +672,32 @@ n247514		<.>
 以下は FreeBSD をソースから構築してアップデートする典型的な方法についてのクイックリファレンスです。
 その後の節では、各プロセスをより詳細に説明します。
 
+[WARNING]
+====
+man:mergemaster[8] から man:etcupdate[8] に移行する際に、初めて man:etcupdate[8] を実行すると、変更点が不適切にマージされ、衝突が起きてしまうことがあります。
+これを避けるには、ソースを更新して新しく buildworld を行う *前に* 以下のステップを行ってください。
+
+[source,shell]
+....
+# etcupdate extract <.>
+# etcupdate diff <.>
+....
+
+<.> [.filename]#/etc# ファイルを保存するデータベースをブートストラップしてください。
+詳細については、 man:etcupdate[8] を参照してください。
+
+<.> ブートストラップ後、差分を確認してください。
+不必要なローカルでの変更点をなくし、将来的なアップデートにおいて、衝突が起きる可能性が低くなるようにしてください。
+====
+
 [.procedure]
 ====
-. アップデートおよびビルド
+* アップデートおよびビルド
 +
 [source,shell]
 ....
 # git pull /usr/src  <.>
-check /usr/src/UPDATING  <.>
+/usr/src/UPDATING の確認 <.>
 # cd /usr/src          <.>
 # make -j4 buildworld  <.>
 # make -j4 kernel      <.>
@@ -743,7 +765,7 @@ origin  https://git.freebsd.org/src.git (push)
 .ソースコードの入手
 [NOTE]
 ====
-`fatal: not a git repository` という出力が出た場合には、ファイルがなかったり、別な方法によりインストールされているので、新しくソースコードをチェックアウトする必要があります。
+`fatal: not a git repository` と出力された場合には、ファイルがなかったり、別な方法によりインストールされているので、新しくソースコードをチェックアウトする必要があります。
 
 [[updating-src-obtaining-src-repopath]]
 .FreeBSD のバージョンおよびリポジトリブランチ
@@ -761,7 +783,9 @@ origin  https://git.freebsd.org/src.git (push)
 |`stable/_X_`
 |
 
-リリースバージョンに対し、 そのブランチにおけるすべての開発の成果が反映されたものです。 _STABLE_ は、 Applications Binary Interface (ABI) が変更されないことを意味しており、 このブランチの以前のバージョンでコンパイルされたソフトウェアは、 このバージョンでも実行できることを意味しています。 たとえば、FreeBSD 10.1 で実行するようにコンパイルされたソフトウェアは、 FreeBSD 10-STABLE においても実行できます。
+リリースバージョンに対し、そのブランチにおけるすべての開発の成果が反映されたものです。
+_STABLE_ では、Applications Binary Interface (ABI) は変更されないため、このブランチのシステムであれば、以前のバージョンでコンパイルされたソフトウェアを実行できます。
+たとえば、FreeBSD 10.1 で実行するようにコンパイルされたソフトウェアは、その後構築された FreeBSD 10-STABLE 上でも実行できます。
 
 STABLE ブランチは、 時期によってはユーザに影響するようなバグや非互換性を持つことがあります。 これらは通常すぐに修正されます。
 
