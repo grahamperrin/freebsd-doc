@@ -72,7 +72,7 @@ toc::[]
 
 [NOTE]
 ====
-As of 2010, the following section is several years out-of-date. Donations from the past several years appear https://www.FreeBSD.org/donations/donors/[here].
+As of 2010, the following section was several years out-of-date. Donations from the past several years appear https://www.FreeBSD.org/donations/donors/[here].
 ====
 
 The FreeBSD Project is indebted to the following donors and would like to publicly thank them here!
