@@ -142,12 +142,16 @@ include::{include-contrib-386bsd}[]
 [[donors]]
 == Donors Gallery
 
+The FreeBSD Foundation thanks https://freebsdfoundation.org/our-donors/donors/[financial and in-kind donors]. 
+
+The https://www.freebsd.org/donations/[FreeBSD Donations Liaison] area includes a https://www.freebsd.org/donations/donors/[list of donated hardware]. 
+
+The FreeBSD Project thanks all donors!
+
 [NOTE]
 ====
-As of 2010, the following section was several years out-of-date. Donations from the past several years appear https://www.FreeBSD.org/donations/donors/[here].
+As of 2010, the section below was several years out-of-date. 
 ====
-
-The FreeBSD Project is indebted to the following donors and would like to publicly thank them here!
 
 === Contributors to the central server project
 
