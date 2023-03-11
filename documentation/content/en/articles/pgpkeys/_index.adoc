@@ -330,6 +330,9 @@ include::{include-path}olivier.key[]
 === `{bcran}`
 include::{include-path}bcran.key[]
 
+=== `{cc}`
+include::{include-path}cc.key[]
+
 === `{culot}`
 include::{include-path}culot.key[]
 
@@ -1004,6 +1007,9 @@ include::{include-path}royger.key[]
 
 === `{rpaulo}`
 include::{include-path}rpaulo.key[]
+
+=== `{misha}`
+include::{include-path}misha.key[]
 
 === `{rpokala}`
 include::{include-path}rpokala.key[]
