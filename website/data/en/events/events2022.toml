@@ -77,7 +77,7 @@ url = "https://wiki.freebsd.org/DevSummit/202211"
 startDate = "2022-11-03"
 endDate = "2022-11-04"
 site = "Online"
-description = "Join us for the online November 2022FreeBSD Vendor Summit. The event will consist of virtual, half day sessions, taking place November 3-4, 2022. It’s free to attend, but we ask that you register with the <a href=\"https://www.eventbrite.com/e/november-2022-freebsd-vendor-summit-tickets-406954340387\">eventbrite</a> system to gain access to the meeting room and separate hallway track. The vendor summit is sponsored by the FreeBSD Foundation."
+description = "Sponsored by The FreeBSD Foundation, this free online event consisted of virtual, half-day sessions."
 
 [[events]]
 id = "freebsd-friday-2022-12-16"
