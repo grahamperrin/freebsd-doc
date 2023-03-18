@@ -1,7 +1,6 @@
 
 * {eadler}
 * {ambrisko}
-* {pauamma}
 * {shaun}
 * {jonathan}
 * {mandree}
@@ -64,6 +63,7 @@
 * {cracauer}
 * {jeb}
 * {bcran}
+* {cc}
 * {joel}
 * {alfredo}
 * {bapt}

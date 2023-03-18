@@ -226,6 +226,15 @@ other = "Adobe, Acrobat, Acrobat Reader und PostScript sind entweder eingetragen
 [apple]
 other = "Apple, FireWire, Mac, Macintosh, Mac OS, Quicktime und TrueType sind eingetragene Warenzeichen von Apple Computer, Inc., in den Vereinigten Staaten und anderen Ländern."
 
+[git]
+other = "Git and the Git logo are either registered trademarks or trademarks of Software Freedom Conservancy, Inc., corporate home of the Git Project, in the United States and/or other countries."
+
+[github]
+other = "GitHub is a trademark of GitHub Inc., registered in the United States and other countries."
+
+[gitlab]
+other = "GITLAB is a trademark of GitLab Inc. in the United States and other countries and regions."
+
 [intel]
 other = "Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium und Xeon sind Warenzeichen oder eingetragene Warenzeichen der Intel Corporation oder ihrer Gesellschaften in den Vereinigten Staaten und in anderen Ländern."
 
@@ -242,7 +251,7 @@ other = "Motif, OSF/1 und UNIX sind eingetragene Warenzeichen und IT DialTone un
 other = "QUALCOMM und Eudora sind eingetragene Warenzeichen von QUALCOMM Incorporated."
 
 [sparc]
-other = "Sparc, Sparc64, und UltraSPARC sind Warenzeichen von SPARC International, Inc in den Vereinigten Staaten und in anderen Ländern.  Produkte, die das Warenzeichen SPARC tragen, basieren auf einer von Sun Microsystems, Inc. entwickelten Architektur."
+other = "Sparc, Sparc64, und UltraSPARC sind Warenzeichen von SPARC International, Inc in den Vereinigten Staaten und in anderen Ländern. Produkte, die das Warenzeichen SPARC tragen, basieren auf einer von Sun Microsystems, Inc. entwickelten Architektur."
 
 [sun]
 other = "Sun, Sun Microsystems, Java, Java Virtual Machine, JDK, JSP, JVM, Netra, Solaris, StarOffice und SunOS sind Warenzeichen oder eingetragene Warenzeichen von Sun Microsystems, Inc. in den Vereinigten Staaten und in anderen Ländern."
@@ -302,4 +311,4 @@ other = "XFree86 ist ein Warenzeichen von The XFree86 Project, Inc."
 other = "This article was originally published in the January 2000 issue of <a class=\"link\" href=\"http://www.daemonnews.org/\">DaemonNews</a>. This version of the article may include updates from Matt and other authors to reflect changes in FreeBSD's VM implementation."
 
 [general]
-other = "Viele Produktbezeichnungen von Herstellern und Verkäufern sind Warenzeichen.  Soweit dem FreeBSD Project das Warenzeichen bekannt ist, werden die in diesem Dokument vorkommenden Bezeichnungen mit dem Symbol “™” oder dem Symbol “®” gekennzeichnet."
+other = "Viele Produktbezeichnungen von Herstellern und Verkäufern sind Warenzeichen. Soweit dem FreeBSD Project das Warenzeichen bekannt ist, werden die in diesem Dokument vorkommenden Bezeichnungen mit dem Symbol “™” oder dem Symbol “®” gekennzeichnet."
