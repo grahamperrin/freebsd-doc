@@ -540,6 +540,10 @@
 :cbzimmer-email: cbzimmer@FreeBSD.org
 :cbzimmer: {cbzimmer-name} <{cbzimmer-email}>
 
+:cc-name: Cheng Cui
+:cc-email: cc@FreeBSD.org
+:cc: {cc-name} <{cc-email}>
+
 :cel-name: Chuck Lever
 :cel-email: cel@FreeBSD.org
 :cel: {cel-name} <{cel-email}>
@@ -1131,6 +1135,10 @@
 :furuta-name: Atsushi Furuta
 :furuta-email: furuta@FreeBSD.org
 :furuta: {furuta-name} <{furuta-email}>
+
+:fuz-name: Robert Clausecker
+:fuz-email: fuz@FreeBSD.org
+:fuz: {fuz-name} <{fuz-email}>
 
 :gabor-name: Gábor Kövesdán
 :gabor-email: gabor@FreeBSD.org
@@ -2815,6 +2823,10 @@
 :rmh-name: Robert Millan
 :rmh-email: rmh@FreeBSD.org
 :rmh: {rmh-name} <{rmh-email}>
+
+:rnagy-name: Robert Nagy
+:rnagy-email: rnagy@FreeBSD.org
+:rnagy: {rnagy-name} <{rnagy-email}>
 
 :rnoland-name: Robert Noland
 :rnoland-email: rnoland@FreeBSD.org

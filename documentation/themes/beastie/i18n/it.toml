@@ -226,6 +226,15 @@ other = "Adobe, Acrobat, Acrobat Reader, e PostScript sono marchi o marchi regis
 [apple]
 other = "Apple, AirPort, FireWire, Mac, Macintosh, Mac OS, Quicktime, e TrueType sono marchi della Apple Computer, Inc., registrati negli Stati Uniti e in altri paesi."
 
+[git]
+other = "Git and the Git logo are either registered trademarks or trademarks of Software Freedom Conservancy, Inc., corporate home of the Git Project, in the United States and/or other countries."
+
+[github]
+other = "GitHub is a trademark of GitHub Inc., registered in the United States and other countries."
+
+[gitlab]
+other = "GITLAB is a trademark of GitLab Inc. in the United States and other countries and regions."
+
 [intel]
 other = "Intel, Celeron, EtherExpress, i386, i486, Itanium, Pentium, e Xeon sono marchi o marchi registrati della Intel Corporation o delle sue sussidiarie negli Stati Uniti e in altri paesi."
 
@@ -242,7 +251,7 @@ other = "Motif, OSF/1, e UNIX sono marchi registrati e IT DialTone e The Open Gr
 other = "QUALCOMM e Eudora sono marchi registrati della QUALCOMM Incorporated."
 
 [sparc]
-other = "Sparc, Sparc64, e UltraSPARC sono marchi SPARC International, Inc negli Stati Uniti e in altri paesi.  I prodotti che portano il marchio SPARC sono basati su architettura sviluppata dalla Sun Microsystems, Inc."
+other = "Sparc, Sparc64, e UltraSPARC sono marchi SPARC International, Inc negli Stati Uniti e in altri paesi. I prodotti che portano il marchio SPARC sono basati su architettura sviluppata dalla Sun Microsystems, Inc."
 
 [sun]
 other = "Sun, Sun Microsystems, Java, Java Virtual Machine, JDK, JRE, JSP, JVM, Netra, Solaris, StarOffice e SunOS sono marchi o marchi registrati della Sun Microsystems, Inc. negli Stati Uniti e in altri paesi."
@@ -302,4 +311,4 @@ other = "XFree86 è un marchio della The XFree86 Project, Inc."
 other = "Questo articolo è stato publicato originalmente nel numero di gennaio 2000 di <a class=\"link\" href=\"http://www.daemonnews.org/\">DaemonNews</a>. Questa versione dell'articolo può includere aggiornamenti da Matt e da altri autori per seguire le modifiche dell'implementazione della memoria virtuale di FreeBSD."
 
 [general]
-other = "Molti dei nomi identificativi usati dai produttori e dai venditori per distinguere i loro prodotti sono anche dei marchi.  Quando questi nomi appaiono nel libro, e il FreeBSD Project è al corrente del marchio, vengono fatti seguire dal simbolo “™” o “®”."
+other = "Molti dei nomi identificativi usati dai produttori e dai venditori per distinguere i loro prodotti sono anche dei marchi. Quando questi nomi appaiono nel libro, e il FreeBSD Project è al corrente del marchio, vengono fatti seguire dal simbolo “™” o “®”."

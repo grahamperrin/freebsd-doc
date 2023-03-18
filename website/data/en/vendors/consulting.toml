@@ -125,7 +125,7 @@ id = "Stacey"
 category = "europe"
 name = "Julian Stacey"
 url = "http://www.berklix.com/~jhs/cv/"
-description = "<a href=\"http://berklix.com/\">Net services & systems engineering</a>, UNIX since 1978, Maintains a <a href=\"http://berklix.com/~jhs/consultants/\">FreeBSD Commercial Consultants Index</a> (<strong>sorted geographically      & by full & part timers)</strong>. Be sure to visit his page!"
+description = "<a href=\"http://berklix.com/\">Net services & systems engineering</a>, UNIX since 1978, Maintains a <a href=\"http://berklix.com/~jhs/consultants/\">FreeBSD Commercial Consultants Index</a> (<strong>sorted geographically & by full & part timers)</strong>. Be sure to visit his page!"
 
 [[consulting]]
 id = "Klara"
@@ -223,7 +223,7 @@ id = "smlan"
 category = "europe"
 name = "SMLAN Software & Management Training"
 url = "https://www.smlan.de"
-description = "SMLan Software & Management Training is a learning center for IT-Trainings. Seminars for Open Source Systems like <a href=\"https://www.smlan.de/seminarthemen/alle/freebsd-administration\">      FreeBSD</a> are offered to companies and individuals. Contact: 0049 30 4492545."
+description = "SMLan Software & Management Training is a learning center for IT-Trainings. Seminars for Open Source Systems like <a href=\"https://www.smlan.de/seminarthemen/alle/freebsd-administration\">FreeBSD</a> are offered to companies and individuals. Contact: 0049 30 4492545."
 
 [[consulting]]
 id = "SysCare"
@@ -476,3 +476,10 @@ category = "samerica"
 name = "AMG Labs"
 url = "https://www.amglabs.net"
 description = "We are a software development and server management company operating in the market since 2014. We work with the development of customized web systems and the deployment and management of servers based on open source technologies such as CentOS, Debian, FreeBSD, OpenBSD and Ubuntu Server."
+
+[[consulting]]
+id = "rxtx"
+category = "europe"
+name = "RxTx"
+url = "https://www.rxtx.tech/"
+description = "RxTx offers scientific software development, maintenance, integration, and deployment services. Specific expertise is the cross-platform porting of scientific applications and libraries, including from and to FreeBSD. Contact us via our website <a href=\"https://www.rxtx.tech/#contact-us\">www.rxtx.tech</a> or by email <a href=\"mailto:info@rxtx.tech\">info@rxtx.tech</a>."

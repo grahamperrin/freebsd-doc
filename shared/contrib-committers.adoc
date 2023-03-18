@@ -1,7 +1,6 @@
 
 * {eadler}
 * {ambrisko}
-* {pauamma}
 * {shaun}
 * {jonathan}
 * {mandree}
@@ -53,6 +52,7 @@
 * {theraven}
 * {davidcs}
 * {marcus}
+* {fuz}
 * {lcook}
 * {ngie}
 * {tijl}
@@ -63,6 +63,7 @@
 * {cracauer}
 * {jeb}
 * {bcran}
+* {cc}
 * {joel}
 * {alfredo}
 * {bapt}
@@ -173,6 +174,7 @@
 * {jkois}
 * {maxim}
 * {tobik}
+* {jkoshy}
 * {ak}
 * {skozlov}
 * {skra}
@@ -238,6 +240,7 @@
 * {jsm}
 * {tmunro}
 * {markm}
+* {rnagy}
 * {trasz}
 * {neel}
 * {bland}
@@ -352,7 +355,6 @@
 * {chuck}
 * {ericbsd}
 * {andrew}
-* {gonzo}
 * {ume}
 * {fsu}
 * {mikael}
