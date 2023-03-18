@@ -82,8 +82,8 @@ description = "Sponsored by The FreeBSD Foundation, this free online event consi
 [[events]]
 id = "freebsd-friday-2022-12-16"
 name = "An Introduction to FreeBSD Services – Drew Gurkowski"
-url = "https://freebsdfoundation.org/freebsd-fridays/"
+url = "https://youtu.be/t2VLTtHYIcA"
 startDate = "2022-12-16"
 endDate = "2022-12-16"
-site = "FreeBSD Fridays – The FreeBSD Foundation"
-description = "Setting up printing, audio, and Wi-Fi on a fresh FreeBSD install."
+site = "FreeBSD Office Hours – YouTube"
+description = "Drew walks through setting up printing, audio, and Wi-Fi with a fresh installation of FreeBSD. This session aimed at new users looking to set up basic services without having to rely on a desktop environment."
