@@ -119,7 +119,7 @@ This is primarily useful when installing on an SD card using a raw image.
 A new man:rc.conf[5] variable has been added, `growfs_swap_size`, which can control the addition if necessary.
 See man:growfs[7] for details.
 
-The `zfskeys` man:service[8] script supports autoloading of keys stored on ZFS.
+The `zfskeys` startup script supports autoloading of keys stored on ZFS.
 gitref:2411090f6940[repository=src] (Sponsored by Klara Inc.)
 
 A new RC script, `zpoolreguid` has been added, which will assign a new GUID to one or more zpools, useful for virtualization environments when sharing datasets.
