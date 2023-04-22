@@ -1,6 +1,6 @@
 #!/usr/local/bin/perl -T
 #
-# Copyright (c) 1996-2022 Wolfram Schneider <wosch@FreeBSD.org>
+# Copyright (c) 1996-2023 Wolfram Schneider <wosch@FreeBSD.org>
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -182,6 +182,7 @@ $sectionpath = {
     'OpenBSD 7.0' => { 'path' => '1:2:3:3p:4:5:6:7:8:9', },
     'OpenBSD 7.1' => { 'path' => '1:2:3:3p:4:5:6:7:8:9', },
     'OpenBSD 7.2' => { 'path' => '1:2:3:3p:4:5:6:7:8:9', },
+    'OpenBSD 7.3' => { 'path' => '1:2:3:3p:4:5:6:7:8:9', },
 
     'CentOS 3.9' => { 'path' => '1:2:3:3p:4:5:6:7:8:9:n', },
     'CentOS 4.8' => { 'path' => '1:1p:2:3:3p:4:5:6:7:8:9:n:0p', },
@@ -250,10 +251,12 @@ foreach my $os ( keys %$sectionpath ) {
 
 $manLocalDir    = '/usr/local/www/bsddoc/man';
 # this should be the latest "release and ports"
-$manPathDefault = 'FreeBSD 13.1-RELEASE and Ports';
+$manPathDefault = 'FreeBSD 13.2-RELEASE and Ports';
 
 %manPath = (
     # supported RELEASES / STABLE / CURRENT 
+    'FreeBSD 13.2-RELEASE and Ports',
+"$manLocalDir/FreeBSD-13.2-RELEASE/man:$manLocalDir/FreeBSD-13.2-RELEASE/openssl/man:$manLocalDir/FreeBSD-ports-13.2-RELEASE/man:$manLocalDir/FreeBSD-ports-13.2-RELEASE/misc",
     'FreeBSD 13.1-RELEASE and Ports',
 "$manLocalDir/FreeBSD-13.1-RELEASE/man:$manLocalDir/FreeBSD-13.1-RELEASE/openssl/man:$manLocalDir/FreeBSD-ports-13.1-RELEASE/man:$manLocalDir/FreeBSD-ports-13.1-RELEASE/misc",
     'FreeBSD 13.0-RELEASE and Ports',
@@ -317,8 +320,10 @@ $manPathDefault = 'FreeBSD 13.1-RELEASE and Ports';
     'FreeBSD 14.0-CURRENT',
 "$manLocalDir/FreeBSD-14.0-CURRENT/man:$manLocalDir/FreeBSD-14.0-CURRENT/openssl/man",
 
-    'FreeBSD 13.1-STABLE',
-"$manLocalDir/FreeBSD-13.1-STABLE/man:$manLocalDir/FreeBSD-13.1-STABLE/openssl/man",
+    'FreeBSD 13.2-STABLE',
+"$manLocalDir/FreeBSD-13.2-STABLE/man:$manLocalDir/FreeBSD-13.2-STABLE/openssl/man",
+    'FreeBSD 13.2-RELEASE',
+"$manLocalDir/FreeBSD-13.2-RELEASE/man:$manLocalDir/FreeBSD-13.2-RELEASE/openssl/man",
     'FreeBSD 13.1-RELEASE',
 "$manLocalDir/FreeBSD-13.1-RELEASE/man:$manLocalDir/FreeBSD-13.1-RELEASE/openssl/man",
     'FreeBSD 13.0-RELEASE',
@@ -437,6 +442,7 @@ $manPathDefault = 'FreeBSD 13.1-RELEASE and Ports';
     'FreeBSD Ports 12.4', "$manLocalDir/FreeBSD-ports-12.4-RELEASE/man:$manLocalDir/FreeBSD-ports-12.4-RELEASE/misc",
     'FreeBSD Ports 13.0', "$manLocalDir/FreeBSD-ports-13.0-RELEASE/man:$manLocalDir/FreeBSD-ports-13.0-RELEASE/misc",
     'FreeBSD Ports 13.1', "$manLocalDir/FreeBSD-ports-13.1-RELEASE/man:$manLocalDir/FreeBSD-ports-13.1-RELEASE/misc",
+    'FreeBSD Ports 13.2', "$manLocalDir/FreeBSD-ports-13.2-RELEASE/man:$manLocalDir/FreeBSD-ports-13.2-RELEASE/misc",
 
 
     # FreeBSD Releases + Ports
@@ -607,6 +613,7 @@ $manPathDefault = 'FreeBSD 13.1-RELEASE and Ports';
     'OpenBSD 7.0', "$manLocalDir/OpenBSD-7.0",
     'OpenBSD 7.1', "$manLocalDir/OpenBSD-7.1",
     'OpenBSD 7.2', "$manLocalDir/OpenBSD-7.2",
+    'OpenBSD 7.3', "$manLocalDir/OpenBSD-7.3",
 
     #'NetBSD 0.9',            "$manLocalDir/NetBSD-0.9",
     'NetBSD 1.0',   "$manLocalDir/NetBSD-1.0",
@@ -916,6 +923,7 @@ my %arch = (
 'OpenBSD 7.0' => { 'arch' => [qw/alpha amd64 arm64 armv7 hppa i386 landisk loongson luna88k macppc octeon powerpc64 riscv64 sparc64/] }, 
 'OpenBSD 7.1' => { 'arch' => [qw/alpha amd64 arm64 armv7 hppa i386 landisk loongson luna88k macppc octeon powerpc64 riscv64 sparc64/] }, 
 'OpenBSD 7.2' => { 'arch' => [qw/alpha amd64 arm64 armv7 hppa i386 landisk loongson luna88k macppc octeon powerpc64 riscv64 sparc64/] }, 
+'OpenBSD 7.3' => { 'arch' => [qw/alpha amd64 arm64 armv7 hppa i386 landisk loongson luna88k macppc octeon powerpc64 riscv64 sparc64/] }, 
 );
 
 # delete not existing releases
@@ -936,16 +944,16 @@ while ( ( $key, $val ) = each %manPath ) {
 
 # keywords must be in lower cases.
 %manPathAliases = (
-    'freebsd',         'FreeBSD 13.1-RELEASE',
-    'freebsd-release', 'FreeBSD 13.1-RELEASE',
+    'freebsd',         'FreeBSD 13.2-RELEASE',
+    'freebsd-release', 'FreeBSD 13.2-RELEASE',
 
-    'freebsd-stable',   'FreeBSD 13.1-STABLE',
-    'freebsd-stable13', 'FreeBSD 13.1-STABLE',
+    'freebsd-stable',   'FreeBSD 13.2-STABLE',
+    'freebsd-stable13', 'FreeBSD 13.2-STABLE',
     'freebsd-stable12', 'FreeBSD 12.4-STABLE',
 
     'freebsd-current',       'FreeBSD 14.0-CURRENT',
-    'freebsd-release-ports', 'FreeBSD 13.1-RELEASE and Ports',
-    'freebsd-ports', 'FreeBSD Ports 13.1',
+    'freebsd-release-ports', 'FreeBSD 13.2-RELEASE and Ports',
+    'freebsd-ports', 'FreeBSD Ports 13.2',
 
     'slackware',  'Linux Slackware 3.1',
     'redhat',     'Red Hat 9',
@@ -958,7 +966,7 @@ while ( ( $key, $val ) = each %manPath ) {
     'macosx',     'Darwin 8.0.1/ppc',
 
     'netbsd',        'NetBSD 9.3',
-    'openbsd',       'OpenBSD 7.2',
+    'openbsd',       'OpenBSD 7.3',
     'v7',            'Unix Seventh Edition',
     'v7man',         'Unix Seventh Edition',
     'x11',           'X11R7.4',
@@ -1075,7 +1083,7 @@ $sections = join( "|", @sections );    # sections regexp
 $mailto                    = 'wosch@FreeBSD.org';
 $mailtoURL                 = 'https://wolfram.schneider.org';
 $mailtoURL                 = "mailto:$mailto" if !$mailtoURL;
-$full_url                  = 'https://www.freebsd.org/cgi/man.cgi';
+$full_url                  = 'https://man.freebsd.org/cgi/man.cgi';
 $want_to_link_to_this_page = 1;
 
 &secure_env;
@@ -1117,8 +1125,8 @@ sub html_header {
     my $html_meta = q|
 <meta name="robots" content="nofollow" />
 <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
-<link rel="search" type="application/opensearchdescription+xml" href="https://www.freebsd.org/opensearch/man.xml" title="FreeBSD Manual Pages" />
-<link rel="search" type="application/opensearchdescription+xml" href="https://www.freebsd.org/opensearch/man-freebsd-release-ports.xml" title="FreeBSD + Ports Manual Pages" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.freebsd.org/opensearch/man.xml" title="FreeBSD Man" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.freebsd.org/opensearch/man-freebsd-release-ports.xml" title="FreeBSD Man+P" />
 <style type="text/css">
 <!--
 b { color: #996600; }
@@ -1188,6 +1196,18 @@ sub do_man {
     # remove trailing spaces for dumb users
     $form{'query'} =~ s/\s+$//;
     $form{'query'} =~ s/^\s+//;
+
+    # not supported query characters
+    $form{'query'} =~ s/"//g;
+    $form{'query'} =~ s/=//g;
+
+    # Firefox opensearch autocomplete workaround
+    if ($form{'sourceid'} eq 'opensearch') {
+        # remove space between double colon
+        $form{'query'} =~ s/: :/::/g;
+        # remove space before a dot 
+        $form{'query'} =~ s/ \./\./g;
+    }
 
     $name = $query = $form{'query'};
     $section  = $form{'sektion'};
@@ -1849,6 +1869,9 @@ sub encode_data {
     s/\</\&lt\;/g;
     s/\>/\&gt\;/g;
 
+    # bold bullet
+    s,\+\010\+\010o\010o,<b>o</b>,g;
+
     # underline: _^H.^H(.)
     s,((_\010[^_]\010.)+),($str = $1) =~ s/_\010..//g; "<I>$str</I>";,ge;
 
@@ -2077,7 +2100,7 @@ and OpenBSD. In this case it is not possible to create Postscript
 and troff output.</li>
 <li>The <a href="https://cgit.freebsd.org/src/tree/share/misc/bsd-family-tree">
 Unix family tree, BSD part</a>.</li>
-<li>The <a href="https://www.freebsd.org/cgi/ports.cgi">
+<li>The <a href="https://ports.freebsd.org/cgi/ports.cgi">
 FreeBSD Ports Changes</a> script.</li>
 <li>Copyright (c) and download for man pages by 
 OS vendors</li>

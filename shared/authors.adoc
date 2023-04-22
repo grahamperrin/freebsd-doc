@@ -540,6 +540,10 @@
 :cbzimmer-email: cbzimmer@FreeBSD.org
 :cbzimmer: {cbzimmer-name} <{cbzimmer-email}>
 
+:cc-name: Cheng Cui
+:cc-email: cc@FreeBSD.org
+:cc: {cc-name} <{cc-email}>
+
 :cel-name: Chuck Lever
 :cel-email: cel@FreeBSD.org
 :cel: {cel-name} <{cel-email}>
@@ -1131,6 +1135,10 @@
 :furuta-name: Atsushi Furuta
 :furuta-email: furuta@FreeBSD.org
 :furuta: {furuta-name} <{furuta-email}>
+
+:fuz-name: Robert Clausecker
+:fuz-email: fuz@FreeBSD.org
+:fuz: {fuz-name} <{fuz-email}>
 
 :gabor-name: Gábor Kövesdán
 :gabor-email: gabor@FreeBSD.org
@@ -2816,6 +2824,10 @@
 :rmh-email: rmh@FreeBSD.org
 :rmh: {rmh-name} <{rmh-email}>
 
+:rnagy-name: Robert Nagy
+:rnagy-email: rnagy@FreeBSD.org
+:rnagy: {rnagy-name} <{rnagy-email}>
+
 :rnoland-name: Robert Noland
 :rnoland-email: rnoland@FreeBSD.org
 :rnoland: {rnoland-name} <{rnoland-email}>
@@ -3674,7 +3686,7 @@
 :core-secretary-email: core-secretary@FreeBSD.org
 
 // FreeBSD Doc Engineering Team
-:doceng-members: {gjb}, {carlavilla}, {blackend}, {dbaio}, {bcr}, {hrs}, {ryusuke}
+:doceng-members: {gjb}, {carlavilla}, {blackend}, {dbaio}, {bcr}, {hrs}, {fernape}
 :doceng-secretary-email: <doceng-secretary@FreeBSD.org>
 
 // FreeBSD Donations Liaison
@@ -3687,12 +3699,12 @@
 :pkgmgr-members: {antoine}, {bdrewery}
 
 // FreeBSD Ports Manager Team
-:portmgr-members: {mat}, {bapt}, {pizzamig}, {rene}, {swills}, {tcberner}
+:portmgr-members: {mat}, {bapt}, {bofh}, {pizzamig}, {rene}, {tcberner}
 
 // FreeBSD Release Engineering Teams
 :re: re@FreeBSD.org
-:re-members: {gjb}, {kib}, {blackend}, {delphij}, {cperciva}
-:re-members-email: {gjb-email}, {kib-email}, {blackend-email}, {delphij-email}, {cperciva-email}
+:re-members: {gjb}, {kib}, {blackend}, {karels}, {delphij}, {cperciva}
+:re-members-email: {gjb-email}, {kib-email}, {blackend-email}, {karels-email}, {delphij-email}, {cperciva-email}
 :re-builders: {marcel}, {nyan}, {nwhitehorn}
 
 // FreeBSD Security Officer

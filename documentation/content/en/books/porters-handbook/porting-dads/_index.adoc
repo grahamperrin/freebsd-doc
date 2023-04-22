@@ -399,6 +399,8 @@ Port [.filename]##Makefile##s should test the value of this Makevar.
 
 Ports that do not have any architecture-dependent files or requirements are identified by setting `NO_ARCH=yes`.
 
+Packages built from such ports have their architecture string ending in `:*` (wildcard architecture) as opposed to, for example, `freebsd:13:x86:64` (amd64 architecture).
+
 [NOTE]
 ====
 `NO_ARCH` is meant to indicate that there is no need to build a package for each of the supported architectures.
@@ -531,7 +533,7 @@ In particular, default socket buffer sizes are different (call man:setsockopt[2]
 
 If relying on non-standard behavior is required, encapsulate it properly into a generic API, do a check for the behavior in the configure stage, and stop if it is missing.
 
-Check the https://www.freebsd.org/cgi/man.cgi[man pages] to see if the function used is a POSIX interface (in the "STANDARDS" section of the man page).
+Check the https://man.freebsd.org/cgi/man.cgi[man pages] to see if the function used is a POSIX interface (in the "STANDARDS" section of the man page).
 
 Do not assume that [.filename]#/bin/sh# is bash.
 Ensure that a command line passed to man:system[3] will work with a POSIX compliant shell.

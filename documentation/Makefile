@@ -1,7 +1,7 @@
 # Generate the FreeBSD documentation
 #
-# Copyright (c) 2020-2022, The FreeBSD Documentation Project
-# Copyright (c) 2020-2022, Sergio Carlavilla <carlavilla@FreeBSD.org>
+# Copyright (c) 2020-2023, The FreeBSD Documentation Project
+# Copyright (c) 2020-2023, Sergio Carlavilla <carlavilla@FreeBSD.org>
 #
 # Targets intended for use on the command line
 #
@@ -43,7 +43,7 @@ GEMBASE?= 	${LOCALBASE}
 
 RUBY_CMD =	${GEMBASE}/bin/ruby
 HUGO_CMD =	${LOCALBASE}/bin/hugo
-HUGO_ARGS?=	--verbose --minify
+HUGO_ARGS?=	--minify
 HUGO_OFFLINE_ARGS?= 	--environment offline --verbose --minify
 ROUGIFY_CMD=	${GEMBASE}/bin/rougify
 ASCIIDOCTOR_CMD=	${GEMBASE}/bin/asciidoctor

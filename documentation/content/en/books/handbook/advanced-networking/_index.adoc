@@ -8,7 +8,6 @@ tags: ["Advanced Networking", "Handbook", "gateway", "routes", "wireless", "teth
 showBookMenu: true
 weight: 38
 path: "/books/handbook/"
-aliases: ["/en/books/handbook/network-routing/","/en/books/handbook/network-wireless/","/en/books/handbook/network-usb-tethering/","/en/books/handbook/network-bluetooth/","/en/books/handbook/network-bridging/","/en/books/handbook/network-aggregation/","/en/books/handbook/network-diskless/","/en/books/handbook/network-ipv6/","/en/books/handbook/carp/","/en/books/handbook/network-vlan/"]
 ---
 
 [[advanced-networking]]
@@ -161,7 +160,7 @@ Various attributes of each route can be seen in the `Flags` column.
 .Commonly Seen Routing Table Flags
 [cols="1,1", frame="none", options="header"]
 |===
-| Command
+| Flag
 | Purpose
 
 |U
@@ -229,7 +228,7 @@ Static routes are appropriate for small networks and this section describes how 
 ====
 For large networks, static routes quickly become unscalable.
 FreeBSD comes with the standard BSD routing daemon man:routed[8], which provides the routing protocols RIP, versions 1 and 2, and IRDP.
-Support for the BGP and OSPF routing protocols can be installed using the package:net/zebra[] package or port.
+Support for the BGP and OSPF routing protocols can be installed using the package:net/quagga[] package or port.
 ====
 
 Consider the following network:
@@ -530,7 +529,8 @@ Only the superuser can initiate a scan:
 [source,shell]
 ....
 # ifconfig wlan0 create wlandev ath0
-# ifconfig wlan0 up scan
+# ifconfig wlan0 up
+# ifconfig wlan0 scan
 SSID/MESH ID    BSSID              CHAN RATE   S:N     INT CAPS
 dlinkap         00:13:46:49:41:76   11   54M -90:96   100 EPS  WPA WME
 freebsdap       00:11:95:c3:0d:ac    1   54M -83:96   100 EPS  WPA

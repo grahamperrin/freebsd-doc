@@ -8,7 +8,6 @@ tags: ["security", "one-time passwords", "TCP Wrapper", "Kerberos", "OpenSSL", "
 showBookMenu: true
 weight: 19
 path: "/books/handbook/"
-aliases: ["/en/books/handbook/security-intro/","/en/books/handbook/one-time-passwords/","/en/books/handbook/tcpwrappers/","/en/books/handbook/kerberos5/","/en/books/handbook/openssl/","/en/books/handbook/ipsec/","/en/books/handbook/openssh/","/en/books/handbook/fs-acl/","/en/books/handbook/security-pkg/","/en/books/handbook/security-advisories/","/en/books/handbook/security-accounting/","/en/books/handbook/security-resourcelimits/","/en/books/handbook/security-sudo/"]
 ---
 
 [[security]]
@@ -451,7 +450,16 @@ Some additional settings are documented in man:security[7].
 [[one-time-passwords]]
 == One-time Passwords
 
-By default, FreeBSD includes support for One-time Passwords In Everything (OPIE).
+By default, versions of FreeBSD prior to 14.x include support for One-time Passwords In Everything (OPIE).
+
+[NOTE]
+====
+OPIE is no longer considered secure and has been removed from FreeBSD
+-CURRENT; it will not be available from 14.x onwards. If you wish to use
+OPIE on versions of FreeBSD later than 13.x, the package:security/opie[]
+package or port is available, though not recommended.
+====
+
 OPIE is designed to prevent replay attacks, in which an attacker discovers a user's password and uses it to access a system.
 Since a password is only used once in OPIE, a discovered password is of little use to an attacker.
 OPIE uses a secure hash and a challenge/response system to manage passwords.
@@ -569,7 +577,7 @@ otp-md5 498 gr4269 ext
 Password:
 ....
 
-The OPIE prompts provides a useful feature.
+The OPIE prompt provides a useful feature.
 If kbd:[Return] is pressed at the password prompt, the prompt will turn echo on and display what is typed.
 This can be useful when attempting to type in a password by hand from a printout.
 
@@ -1739,14 +1747,11 @@ The following command tells `ssh` to create a tunnel for telnet:
 
 [source,shell]
 ....
-% ssh -2 -N -f -L 5023:localhost:23 user@foo.example.com
+% ssh -N -f -L 5023:localhost:23 user@foo.example.com
 %
 ....
 
 This example uses the following options:
-
-`-2`::
-Forces `ssh` to use version 2 to connect to the server.
 
 `-N`::
 Indicates no command, or tunnel only.
@@ -1774,7 +1779,7 @@ This method can be used to wrap any number of insecure TCP protocols such as SMT
 
 [source,shell]
 ....
-% ssh -2 -N -f -L 5025:localhost:25 user@mailserver.example.com
+% ssh -N -f -L 5025:localhost:25 user@mailserver.example.com
 user@mailserver.example.com's password: *****
 % telnet localhost 5025
 Trying 127.0.0.1...
@@ -1795,7 +1800,7 @@ To check email in a secure manner, create an SSH connection to the SSH server an
 
 [source,shell]
 ....
-% ssh -2 -N -f -L 2110:mail.example.com:110 user@ssh-server.example.com
+% ssh -N -f -L 2110:mail.example.com:110 user@ssh-server.example.com
 user@ssh-server.example.com's password: ******
 ....
 
@@ -1814,7 +1819,7 @@ The solution is to create an SSH connection to a machine outside of the network'
 
 [source,shell]
 ....
-% ssh -2 -N -f -L 8888:music.example.com:8000 user@unfirewalled-system.example.org
+% ssh -N -f -L 8888:music.example.com:8000 user@unfirewalled-system.example.org
 user@unfirewalled-system.example.org's password: *******
 ....
 

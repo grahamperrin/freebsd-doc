@@ -1,7 +1,7 @@
 # Generate the FreeBSD website
 #
-# Copyright (c) 2020-2022, The FreeBSD Documentation Project
-# Copyright (c) 2020-2022, Sergio Carlavilla <carlavilla@FreeBSD.org>
+# Copyright (c) 2020-2023, The FreeBSD Documentation Project
+# Copyright (c) 2020-2023, Sergio Carlavilla <carlavilla@FreeBSD.org>
 #
 # Targets intended for use on the command line
 #
@@ -22,7 +22,7 @@ LOCALBASE?=	/usr/local
 
 RUBY_CMD =	${LOCALBASE}/bin/ruby
 HUGO_CMD =	${LOCALBASE}/bin/hugo
-HUGO_ARGS?=	--verbose
+HUGO_ARGS?=
 RUBYLIB =	../shared/lib
 .export	RUBYLIB
 

@@ -1,7 +1,5 @@
 
-* {eadler}
 * {ambrisko}
-* {pauamma}
 * {shaun}
 * {jonathan}
 * {mandree}
@@ -53,6 +51,7 @@
 * {theraven}
 * {davidcs}
 * {marcus}
+* {fuz}
 * {lcook}
 * {ngie}
 * {tijl}
@@ -63,6 +62,7 @@
 * {cracauer}
 * {jeb}
 * {bcran}
+* {cc}
 * {joel}
 * {alfredo}
 * {bapt}
@@ -131,7 +131,6 @@
 * {jgh}
 * {wen}
 * {jhibbits}
-* {nhibma}
 * {jhixson}
 * {pho}
 * {oh}
@@ -173,6 +172,7 @@
 * {jkois}
 * {maxim}
 * {tobik}
+* {jkoshy}
 * {ak}
 * {skozlov}
 * {skra}
@@ -238,6 +238,7 @@
 * {jsm}
 * {tmunro}
 * {markm}
+* {rnagy}
 * {trasz}
 * {neel}
 * {bland}
@@ -333,7 +334,6 @@
 * {xride}
 * {marius}
 * {cs}
-* {ryusuke}
 * {nyan}
 * {tagattie}
 * {tota}
@@ -352,7 +352,6 @@
 * {chuck}
 * {ericbsd}
 * {andrew}
-* {gonzo}
 * {ume}
 * {fsu}
 * {mikael}
@@ -372,7 +371,6 @@
 * {peter}
 * {nwhitehorn}
 * {bwidawsk}
-* {swills}
 * {rew}
 * {def}
 * {mw}
