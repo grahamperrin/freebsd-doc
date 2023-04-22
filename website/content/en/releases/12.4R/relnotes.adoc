@@ -54,7 +54,7 @@ Upgrading FreeBSD should only be attempted after backing up _all_ data and confi
 
 [IMPORTANT]
 ====
-After upgrading, sshd will not accept new connections until it is restarted.
+If upgrading from an earlier version of FreeBSD, sshd (from OpenSSH 9.1p1) will not accept new connections until it is restarted.
 After installing the new userland, either reboot (as specified in the source update procedure), or execute `service sshd restart`.
 ====
 
