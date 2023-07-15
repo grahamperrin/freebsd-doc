@@ -106,7 +106,7 @@ Their [.filename]#pkg-# prefix distinguishes them from other files.
 A longer description of the port.
 One to a few paragraphs concisely explaining what the port does is sufficient.
 
-Wrap at 72 columns.
+Wrap at 78 columns.
 
 [NOTE]
 ====
